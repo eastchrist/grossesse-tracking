@@ -1,0 +1,37 @@
+<%- include('./_layouts/header'); -%>
+
+<link rel="stylesheet" href="/assets/css/loginstyle.css">
+
+
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+		    <%- include('./_layouts/navebar_main'); -%>
+		</div>
+	</div>
+	<div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                <%- include('./_layouts/message'); -%>
+                <div class="card card-signin my-5">
+                      <div class="card-body">
+                            <h5 class="card-title text-center">Sign In</h5>
+                            <form class="form-signin" method="post" action="/login">
+                                <div class="form-label-group">
+                                    <input type="text" name="username" id="inputUserName" class="form-control" placeholder="UserName" required="" autofocus="">
+                                    <label for="inputUserName">UserName</label>
+                                </div>
+                                <div class="form-label-group">
+                                    <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                                    <label for="inputPassword">Password</label>
+                                </div>
+                                <button type="submit" class="btn btn-lg btn-primary btn-block text-uppercase">Log in</button>
+                            </form>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<%- include('./_layouts/footer'); -%>
