@@ -1,0 +1,15 @@
+
+<% if(errors != "") { %>
+		<div class="alert alert-danger">
+			<% errors.forEach((item) => { %>
+                    <div class="alert alert-danger">
+                        <%= item %>
+                    </div>
+            <% }); %>
+		</div>
+<% } %>
+<% if (locals.flash && locals.flash.success) { %>
+		<div class="alert alert-success">
+			<%= flash.success %>
+		</div>
+<% } %>
