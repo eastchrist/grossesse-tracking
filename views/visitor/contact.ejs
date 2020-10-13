@@ -1,0 +1,50 @@
+<%- include('../_layouts/header'); -%>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+		    <%- include('../_layouts/navebar_main'); -%>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2">
+
+		</div>
+		<div class="col-md-2">
+            <%- include('../_layouts/message'); -%>
+
+            <h1><%= title %></h1>
+
+            <form method="post" action="/users/contact">
+
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" name="name" class="form-control" placeholder="Name">
+                </div>
+
+                <div class="form-group">
+                    <label>Company</label>
+                    <input type="text" name="company" class="form-control" placeholder="Company">
+                </div>
+
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input type="text" name="phone" class="form-control" placeholder="Phone">
+                </div>
+
+                <div class="form-group">
+                     <label>Email</label>
+                     <input type="text" name="email" class="form-control" placeholder="Email">
+                </div>
+
+                <div class="form-group">
+                        <label for="">Message</label>
+                        <textarea name="message" class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                <button type="submit" class="btn btn-success">Contact Us</button>
+            </form>
+
+        </div>
+	</div>
+</div>
+<%- include('../_layouts/footer'); -%>
