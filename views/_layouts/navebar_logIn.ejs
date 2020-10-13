@@ -1,0 +1,70 @@
+<div class="collapse navbar-collapse" id="navbarMenu">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">Administration</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="/admin/password">Password</a>
+                <a class="dropdown-item" href="/admin/digital">Digital Input</a>
+                <a class="dropdown-item" href="/admin/analog">Analog Input</a>
+                <a class="dropdown-item" href="/admin/galarms">Alarm Group</a>
+                <a class="dropdown-item" href="/admin/nodes">Nodes</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">Cartography</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown02">
+                <a class="dropdown-item" href="/users/carto_factory">Factory</a>
+                <a class="dropdown-item" href="/users/carto_functions">Function Management</a>
+                <a class="dropdown-item" href="/users/carto_measures">Measurement</a>
+                <a class="dropdown-item" href="/users/carto_projects">Project Management</a>
+                <a class="dropdown-item" href="/users/carto_info_projects">Project Information</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">Tracability</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown03">
+                <a class="dropdown-item" href="/users/tracability">Area1</a>
+                <a class="dropdown-item" href="/users/tracability">Area2</a>
+                <a class="dropdown-item" href="/users/tracability">Area3</a>
+                <a class="dropdown-item" href="/users/tracability">Area4</a>
+                <a class="dropdown-item" href="/users/tracability">Area5</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">Optimisation</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown04">
+                <a class="dropdown-item" href="/users/optimisation">Area1</a>
+                <a class="dropdown-item" href="/users/optimisation">Area2</a>
+                <a class="dropdown-item" href="/users/optimisation">Area3</a>
+                <a class="dropdown-item" href="/users/optimisation">Area4</a>
+                <a class="dropdown-item" href="/users/optimisation">Area5</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">Cip</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown04">
+                <a class="dropdown-item" href="/users/cip">Area1</a>
+                <a class="dropdown-item" href="/users/cip">Area2</a>
+                <a class="dropdown-item" href="/users/cip">Area3</a>
+                <a class="dropdown-item" href="/users/cip">Area4</a>
+                <a class="dropdown-item" href="/users/cip">Area5</a>
+            </div>
+        </li>
+    </ul>
+    <ul class="navbar-nav navbar-right">
+        <% if (user) { %>
+            <li class="nav-item"><a class="nav-link" href="/logout"><span class="glyphicon glyphicon-log-out"></span>
+                    Hi,  <%= user.username %>  (logout )</a></li>
+        <% } else { %>
+            <li class="nav-item"><a class="nav-link" href="/register"><span class="glyphicon glyphicon-user"></span>
+                    Sign Up</a></li>
+            <li class="nav-item"><a class="nav-link" href="/login"><span class="glyphicon glyphicon-log-in"></span>
+                    Login</a></li>
+        <% } %>
+    </ul>
+</div>
