@@ -8,7 +8,6 @@
     "toto": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "author": "east_christ",
   "license": "ISC",
   "dependencies": {
@@ -33,7 +32,7 @@
     "node-red-contrib-opcua": "^0.2.81",
     "node-red-contrib-uibuilder": "^2.0.8",
     "node-red-dashboard": "^2.23.2",
-    "node-red-factory-config": "^1.0.0",
+    "red-node-factory-config": "^1.0.0",
     "node-red-node-mysql": "^0.1.1",
     "node-red-node-rbe": "^0.2.9",
     "node-red-node-serialport": "^0.10.3",
@@ -46,5 +45,16 @@
     "semver": "6.3.0"
   },
   "devDependencies": {},
-  "description": "http://nodered.org"
+  "description": "http://nodered.org",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eastchrist/process-tracking.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eastchrist/process-tracking/issues"
+  },
+  "homepage": "https://github.com/eastchrist/process-tracking#readme"
 }
