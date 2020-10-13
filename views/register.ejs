@@ -1,0 +1,47 @@
+<%- include('./_layouts/header'); -%>
+
+<link rel="stylesheet" href="/assets/css/loginstyle.css">
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+		    <%- include('./_layouts/navebar_main'); -%>
+		</div>
+	</div>
+	<div class="container">
+            <div class="row">
+                <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                    <div class="card card-signin my-5">
+                          <div class="card-body">
+                                <h5 class="card-title text-center">Register</h5>
+                                <form method="post" action="/register">
+                                    <div class="form-label-group">
+                                        <input type="text" name="name" class="form-control" id="inputName" placeholder="Name" required="" autofocus="">
+                                        <label for="inputName">Name</label>
+                                    </div>
+                                    <div class="form-label-group">
+                                        <input type="text" name="email" class="form-control" id="inputEmail" placeholder="Email" required="">
+                                        <label for="inputEmail">Email</label>
+                                    </div>
+                                    <div class="form-label-group">
+                                        <input type="text" name="username" class="form-control" id="inputUserName" placeholder="Username" required="">
+                                        <label for="inputUserName">Username</label>
+                                    </div>
+                                    <div class="form-label-group">
+                                        <input type="password" name="password" class="form-control"  id="inputPassword" placeholder="Password" required="">
+                                        <label for="inputPassword">Password</label>
+                                    </div>
+                                    <div class="form-label-group">
+                                        <input type="password" name="passwordConfirmation" class="form-control"  id="inputPasswordConfirmation" placeholder="Password" required="">
+                                        <label for="inputPasswordConfirmation">Password Confirmation</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-lg btn-primary btn-block text-uppercase">Register</button>
+									<%- include('./_layouts/message'); -%>
+                                </form>
+                          </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<%- include('./_layouts/footer'); -%>
