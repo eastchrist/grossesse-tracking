@@ -1,0 +1,8 @@
+<% if (hasError) { %>
+                <% for (var i = 0; i < validationErrors.length; i++) { %>
+                    <div class="alert alert-danger">
+                        <%= validationErrors[i].msg %>
+                    </div>
+                <% } %>
+            <% } %>
+
