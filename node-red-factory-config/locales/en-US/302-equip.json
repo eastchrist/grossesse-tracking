@@ -1,0 +1,66 @@
+{
+    "file_conf": {
+        "status": {
+            "waiting": "waiting",
+            "timeout": "timeout"
+        },
+        "label": {
+            "name": "Name",
+            "plc": "Plc",
+            "digital": "Digital",
+            "analog": "Analog",
+            "alarms": "Alarms",
+            "cartography": "Cartography",
+            "eventLabel" : "Event Configuration",
+            "otherLabel" : "Inputs Configuration",
+            "listEventM" : "List of Main Event : ",
+            "event" : "Events",
+            "event_main" : "Event Main",
+            "EventS" : "Event Second",
+            "dataEvent" : "Data Event",
+            "function_nb" : "Number",
+            "fifo_Def" : "Fifo Definition",
+            "label": "Label",
+            "tag": "Tag",
+            "action" : "Action",
+            "tag_EventM": "Event Main",
+            "type": "Type",
+            "type_Fifo" : "Fifo",
+            "remove": "Remove",
+            "definition": "Equip Definition",
+            "toHide" : "That Will be Hidden",
+            "input": "Input",
+            "output": "Output"
+        },
+        "Analog_Type": {
+            "real": "Real",
+            "int": "Int",
+            "dint": "Dint",
+            "word": "Word",
+            "dword": "Dword"
+        },
+        "placeholder": {
+            "serialport": "TOTO"
+        },
+        "addsplit": "Add character to output messages",
+        "tip": {
+            "responsetimeout": "Tip: The default response timeout can be overridden by setting msg.timeout.",
+            "split": "Tip: the \"Split on\" character is used to split the input into separate messages. Can accept chars ($), escape codes (\\n), or hex codes (0x03).",
+            "silent": "Tip: In line-silent mode timeout is restarted upon arrival of any character (i.e. inter-byte timeout).",
+            "timeout": "Tip: In timeout mode timeout starts from arrival of first character.",
+            "count": "Tip: In count mode msg.count can override the configured count as long as it smaller than the configured value.",
+            "waitfor": "Tip: Optional. Leave blank to receive all data. Can accept chars ($), escape codes (\\n), or hex codes (0x02)." ,
+            "addchar": "Tip: This character is added to every message sent out to the serial port. Usually \\r or \\n."
+        },
+        "onopen": "serial port __port__ opened at __baud__ baud __config__",
+        "errors": {
+            "missing-conf": "missing serial config",
+            "serial-port": "Server Name",
+            "error": "serial port __port__ error: __error__",
+            "unexpected-close": "serial port __port__ closed unexpectedly",
+            "disconnected": "serial port __port__ disconnected",
+            "closed": "serial port __port__ closed",
+            "list": "Failed to list ports. Please enter manually."
+        }
+    }
+}
