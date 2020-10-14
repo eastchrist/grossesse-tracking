@@ -1,0 +1,125 @@
+
+
+<!--  *****Concat  -->
+<script type="text/javascript">
+    RED.nodes.registerType('concat',{
+        color: 'rgb(176, 223, 227)',
+        category: 'work',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "function.svg",
+        label: function() {
+            return this.name || "";
+        },
+        labelStyle: function() {
+            return this.name?"node_label_italic":"";
+        },
+        oneditprepare: function() {
+            //var node = this;
+        },
+        oneditsave: function() {
+            //var node = this;
+        }
+    });
+</script>
+<script type="text/html" data-template-name="concat">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+<script type="text/html" data-help-name="concat">
+    <p>Configuration to concate to file.</p>
+</script>
+
+<!--  *****Create SQL Tables  -->
+<script type="text/javascript">
+    RED.nodes.registerType('create_table',{
+        color: 'rgb(176, 223, 227)',
+        category: 'work',
+        defaults: {
+            mydb: {type:"MySQLdatabase",required:true},
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "function.svg",
+        label: function() {
+            var levelNode = RED.nodes.node(this.mydb);
+            return this.name||(levelNode?levelNode.label():"mysql");
+        },
+        labelStyle: function() {
+            return this.name?"node_label_italic":"";
+        },
+        oneditprepare: function() {
+            //var node = this;
+        },
+        oneditsave: function() {
+            //var node = this;
+        }
+    });
+</script>
+<script type="text/html" data-template-name="create_table">
+    <div class="form-row">
+        <label for="node-input-mydb"><i class="fa fa-database"></i> Database</label>
+        <input type="text" id="node-input-mydb">
+    </div>
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+<script type="text/html" data-help-name="create_table">
+    <p>Configuration to create SQL data tables.</p>
+</script>
+
+<!--  *****Populate SQL Tables  -->
+<script type="text/javascript">
+    RED.nodes.registerType('populate_table',{
+        color: 'rgb(176, 223, 227)',
+        category: 'work',
+        defaults: {
+            mydb: {type:"MySQLdatabase",required:true},
+            Plc : {value:""},
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "function.svg",
+        label: function() {
+            var levelNode = RED.nodes.node(this.mydb);
+            return this.name||(levelNode?levelNode.label():"mysql");
+        },
+        labelStyle: function() {
+            return this.name?"node_label_italic":"";
+        },
+        oneditprepare: function() {
+            //var node = this;
+        },
+        oneditsave: function() {
+            //var node = this;
+        }
+    });
+</script>
+<script type="text/html" data-template-name="populate_table">
+    <div class="form-row">
+        <label for="node-input-mydb"><i class="fa fa-database"></i> Database</label>
+        <input type="text" id="node-input-mydb">
+    </div>
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+
+    <div class="form-row" >
+        <label for="node-input-Plc"><i class="fa fa-tag"></i><span data-i18n="file_conf.label.plc"></span></label>
+        <select type="text" id="node-input-Plc" style="margin-left:11px; width:200px;"> <!--  height:28px;  -->
+        </select>
+    </div>
+</script>
+<script type="text/html" data-help-name="populate_table">
+    <p>Configuration to populate SQL data tables.</p>
+</script>
