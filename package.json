@@ -32,7 +32,7 @@
     "node-red-contrib-opcua": "^0.2.81",
     "node-red-contrib-uibuilder": "^2.0.8",
     "node-red-dashboard": "^2.23.2",
-    "red-node-factory-config": "^1.0.0",
+    "node-red-factory-config": "^1.0.0",
     "node-red-node-mysql": "^0.1.1",
     "node-red-node-rbe": "^0.2.9",
     "node-red-node-serialport": "^0.10.3",
