@@ -1,0 +1,303 @@
+
+<!--  *****FIFO Definition  -->
+<script type="text/javascript">
+    RED.nodes.registerType('fifo_Def',{
+        category: 'config',
+        defaults: {
+            name: {value:""},
+            options: {
+                        value:[{
+                                    //value:'',
+                                    label :'',
+                                    action :'',
+                                    type:''}
+                                ],
+                        validate:function(value) {
+                            // TODO
+                            //if (value.length ) {
+                            //    for (var i = 0; i < value.length; i++) {
+                            //        if (!value[i].value) {
+                            //            return false;
+                            //        }
+                            //    }
+                            //} else {
+                            //    return false;
+                            //}
+                            return true;
+                    }}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "ui_form.png",
+        label: function() {
+            return this.name || "";
+        },
+        labelStyle: function() {
+            return this.name?"node_label_italic":"";
+        },
+        oneditprepare: function() {
+            var Type_Array = [
+                    {val : "Bool", text: 'Bool'},
+                    {val : "Real", text: 'Real'},
+                    {val : "Int", text: 'Int'},
+                    {val : "Dint", text: 'Dint'},
+                    {val : "Word", text: 'Word'},
+                    {val : "Dword", text: 'Dword'},
+                    {val : "Array_16B", text: 'Array_16B'},
+                    {val : "String", text: 'String(10)'}
+                ];
+            function generateOption(i, option) {
+                var container = $('<li/>',{style:"margin:0; padding:8px 0px 0px; border-bottom:1px solid #ccc;"});
+                var row = $('<div/>').appendTo(container);
+                var row2 = $('<div/>',{style:"padding-top:5px; padding-left:175px;"}).appendTo(container);
+                var row3 = $('<div/>',{style:"padding-top:5px; padding-left:120px;"}).appendTo(container);
+
+                $('<i style="cursor:move; margin-left:3px;" class="node-input-option-handle fa fa-bars"></i>').appendTo(row);
+
+                var labelField = $('<input/>',{class:"node-input-option-label", type:"text", style:"margin-left:7px; width:40%;", placeholder: 'e.g. Name', value:option.label}).appendTo(row);
+                //var valueClass ="node-input-option-value"
+
+                //**************************
+                // Fill ComboBox Type
+                var typeField = $('<select/>',{class:"node-input-option-type",type:"text",style:"margin-left:7px; width:16%"}).appendTo(row);
+                //var sel = $('<select>').appendTo('body');
+                $(Type_Array).each(function() {
+                    var isSelected= false;
+                    if (option.type == this.val) {
+                        isSelected = true;
+                    }
+                    typeField.append($("<option>").attr('value',this.val).text(this.text).prop('selected',isSelected));
+                });
+
+                // Fill ComboBox Action
+                var actionField = $('<select/>',{class:"node-input-option-action",type:"text",style:"margin-left:7px; width:16%"}).appendTo(row);
+                var Action_Array = [
+                  {val : "Read", text: 'Read'},
+                  {val : "Read_Ok_To_Read", text: 'Read_Ok_To_Read'},
+                  {val : "Read_Pile_Length", text: 'Read_Pile_Length'},
+                  {val : "Read_Plc_Nb", text: 'Read_Plc_Nb'},
+                  {val : "Read_Function_Nb", text: 'Read_Function_Nb'},
+                  {val : "Read_SubFunct_Nb", text: 'Read_SubFunct_Nb'},
+                  {val : "Read_Funct_Begin", text: 'Read_Funct_Begin'},
+                  {val : "Read_Data", text: 'Read_Data'},
+                  {val : "Read_String", text: 'Read_String'},
+                  {val : "Read_Array16B", text: 'Read_Array16B'},
+                  {val : "Write", text: 'Write'},
+                  {val : "Write_In_Empying", text: 'Write_In_Empying'},
+                  {val : "Write_Raz", text: 'Write_Raz'},
+                  {val : "Write_Read_Done", text: 'Write_Read_Done'},
+                  {val : "NotUsed", text: 'NotUsed'}
+                ];
+                $(Action_Array).each(function() {
+                    var isSelected= false;
+                    if (option.action == this.val) {
+                        isSelected = true;
+                    }
+                    actionField.append($("<option>").attr('value',this.val).text(this.text).prop('selected',isSelected));
+                });
+                //***************************
+
+
+                var requiredContainer= $('<div/>',{style:"display:inline-block; height:34px; width:5%; vertical-align: middle"}).appendTo(row);
+                var requiredInnerContainer= $('<div/>',{style:"left:35%; position:relative; width:20px"}).appendTo(requiredContainer);
+
+                var finalspan = $('<div/>',{style:"display:inline-block; width:2%;"}).appendTo(row);
+                var deleteButton = $('<a/>',{
+                    href:"#",
+                    class:"editor-button",
+                    //style:"font-size:1.3em; left:45%; position:relative;"
+                    style:"font-size:1.3em; vertical-align: middle;"  //left:45%; position:relative;"
+                }).appendTo(finalspan);
+                $('<i/>',{class:"fa fa-trash-o"}).appendTo(deleteButton);
+
+                deleteButton.click(function() {
+                    //container.find(".node-input-option-value").removeAttr('required')
+                    container.css({"background":"#fee"});
+                    container.fadeOut(300, function() {
+                        $(this).remove();
+                });
+            });
+
+                $("#node-input-option-container").append(container);
+            }
+
+            $("#node-input-add-option").click(function() {
+                generateOption($("#node-input-option-container").children().length+1, {});
+                $("#node-input-option-container-div").scrollTop($("#node-input-option-container-div").get(0).scrollHeight);
+            });
+
+            for (var i=0; i<this.options.length; i++) {
+                var option = this.options[i];
+                generateOption(i+1,option);
+            }
+        },
+        oneditsave: function() {
+            var options = $("#node-input-option-container").children();
+            var node = this;
+            node.options = [];
+            //node.formValue = {};
+            options.each(function(i) {
+                var option = $(this);
+                var o = {
+                    label: option.find(".node-input-option-label").val(),
+                    type: option.find(".node-input-option-type").val(),
+                    action: option.find(".node-input-option-action").val()
+                };
+                //node.formValue[o.value]= o.type == "checkbox" || o.type == "switch" ? false : "";
+                node.options.push(o);
+            });
+        }  //,
+        //oneditresize: function() {
+        //    var options = $("#node-input-option-container").children();
+        //    var newWidth = ($("#node-input-option-container").width() - 175)/2;
+        //    var node = this;
+        //    options.each(function(i) {
+        //        node.resizeRule($(this),newWidth);
+        //    });
+        //}
+    });
+</script>
+<script type="text/html" data-template-name="fifo_Def">
+    <div class="form-row">
+        <label for="node-config-input-name"><i class="fa fa-tag"></i><span data-i18n="file_conf.label.name"></span></label>
+        <input type="text" id="node-config-input-name" placeholder="Name">
+    </div>
+
+    <div class="form-row">
+        <label style="vertical-align:top;"><i class="fa fa-list-alt"></i><span data-i18n="file_conf.label.information"></span></label>
+    </div>
+    <div class="form-row node-input-option-container-row" style="margin-bottom:0px; width:100%; min-width:520px">
+        <div style="display:inline-block; width:95%; border:1px solid #ccc; border-radius:5px; box-sizing:border-box;">
+          <div class="red-ui-tray-header" style="width:100%; display: inline-block; padding-top:10px; padding-buttom:10px; border-top:0px solid; border-radius:5px 5px 0 0; border-bottom:1px solid #ccc;">
+              <div style="width:94%; display:inline-block; margin-left:27px">
+                  <div style="width:46%; text-align:center; float:left;"><span data-i18n="file_conf.label.tag"></span></div>
+                  <div style="width:17%; text-align:center; float:left;"><span data-i18n="file_conf.label.type"></span></div>
+                  <div style="width:17%; text-align:center; float:left;"><span data-i18n="file_conf.label.action"></span></div>
+                  <div style="width:17%; text-align:center; float:left;"><span data-i18n="file_conf.label.remove"></span></div>
+              </div>
+          </div>
+          <div id="node-input-option-container-div" style=" height: 350px; padding: 5px; overflow-y:scroll;">
+            <ol id="node-input-option-container" style=" list-style-type:none; margin: 0;"></ol>
+          </div>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <a href="#" class="editor-button editor-button-small" id="node-input-add-option" style="margin-top: 4px; margin-left: 103px;"><i class="fa fa-plus"></i> <span>element</span></a>
+    </div>
+</script>
+<!--  *****FIFO  -->
+<script type="text/javascript">
+    RED.nodes.registerType('fifo',{
+        color:'rgb(176, 223, 227)',
+        category: 'Plc',
+        defaults: {
+            name: {value:""},
+            Plc : {value:""},
+            conf_DB: {value: "0"},
+            conf_DB_offset: {value: "0"},
+            fifo_Def: {value:"", type:"fifo_Def"}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "function.svg",
+        label: function() {
+            return this.name || "";
+        },
+        labelStyle: function() {
+            return this.name?"node_label_italic":"";
+        },
+        oneditprepare: function() {
+            var node = this;
+
+            // Spinner for DB conf
+            $( "#node-input-conf_DB" ).spinner({
+                min:0,
+                change: function(event, ui) {
+                    var value = this.value;
+                    if (!value.match(/^\d+$/)) { value = 1;  }
+                    else if (value < this.min) { value = this.min; }
+                    if (value !== this.value) { $(this).spinner("value", value); }
+                }
+            });
+
+            // Spinner for DB conf
+            $( "#node-input-conf_DB_offset" ).spinner({
+                min:0,
+                change: function(event, ui) {
+                    var value = this.value;
+                    if (!value.match(/^\d+$/)) { value = 1;  }
+                    else if (value < this.min) { value = this.min; }
+                    if (value !== this.value) { $(this).spinner("value", value); }
+                }
+            });
+
+            // To fill the Selector Option
+            var Checking = "Plc_Type";
+            var Select_values = [];
+            var candidateNodes = RED.nodes.filterNodes({z:node.z});
+            candidateNodes.forEach(function(n) {
+                var nodeDef = RED.nodes.getType(n.type);
+                var label;
+                var sublabel;
+                if (nodeDef) {
+                    var l = nodeDef.label;
+                    label = (typeof l === "function" ? l.call(n) : l)||"";
+                    sublabel = n.type;
+                    if (sublabel.indexOf("subflow:") === 0) {
+                        var subflowId = sublabel.substring(8);
+                        var subflow = RED.nodes.subflow(subflowId);
+                        sublabel = "subflow : "+subflow.name;
+                    }
+                    if (sublabel === Checking) {
+                        Select_values.push({value:label, text:label});
+                    }
+                }
+            });
+            for (var i = 0; i < Select_values.length; i++) {
+               var value = Select_values[i].value;
+               var text = Select_values[i].text;
+               $('#node-input-Plc').append($("<option></option>").attr("value", value).text(text));
+            };
+            // Make sure the selected value is also selected in the <select> tag
+            $('#node-input-Plc').val(this.Plc);
+        },
+        oneditsave: function() {
+
+        }
+    });
+</script>
+<script type="text/html" data-template-name="fifo">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i><span data-i18n="file_conf.label.name"></span></label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+
+    <div class="form-row" >
+        <label for="node-input-Plc"><i class="fa fa-tag"></i><span data-i18n="file_conf.label.plc"></span></label>
+        <select type="text" id="node-input-Plc" style="margin-left:11px; width:200px; ">
+        </select>
+    </div>
+
+    <div class="form-row">
+        <span data-i18n="file_conf.label.siemens"></span><br/>
+    </div>
+
+    <div class="form-row" style="margin-bottom: 0px">
+        <label for="node-input-conf_DB"><i class="fa fa-random"></i><span data-i18n="file_conf.label.conf_DB"></span></label>
+        <input id="node-input-conf_DB" style="width: 60px;" value="1">
+    </div>
+
+    <div class="form-row" style="margin-bottom: 0px">
+        <label for="node-input-conf_DB_offset"><i class="fa fa-random"></i><span data-i18n="file_conf.label.conf_DB_offset"></span></label>
+        <input id="node-input-conf_DB_offset" style="width: 60px;" value="1">
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-fifo_Def"><i class="fa fa-table"></i><span data-i18n="file_conf.label.definition"></span></label>
+        <input type="text" id="node-input-fifo_Def">
+    </div>
+</script>
+<script type="text/html" data-help-name="fifo">
+    <p>Configuration of a plc fifo communication.</p>
+</script>
