@@ -742,89 +742,6 @@
     }
    }
   },
-  "red-node-factory-config": {
-   "name": "red-node-factory-config",
-   "version": "1.0.0",
-   "local": true,
-   "nodes": {
-    "factory": {
-     "name": "factory",
-     "types": [
-      "factory",
-      "areas",
-      "area",
-      "tank_areas",
-      "tank"
-     ],
-     "enabled": true,
-     "local": true,
-     "module": "red-node-factory-config",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\red-node-factory-config\\300-factory.js"
-    },
-    "plc": {
-     "name": "plc",
-     "types": [
-      "Plcs",
-      "Server_Def",
-      "Plc_Type"
-     ],
-     "enabled": true,
-     "local": true,
-     "module": "red-node-factory-config",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\red-node-factory-config\\301-plc.js"
-    },
-    "equip": {
-     "name": "equip",
-     "types": [
-      "equips",
-      "Equip_Def",
-      "Equip_Def_Digital",
-      "Equip_Def_Analog",
-      "Equip_Def_Alarms",
-      "Equip_Def_Carto",
-      "Equip_Def_EventList",
-      "Equip_Def_EventM",
-      "Equip_Def_EventS",
-      "equip_Type"
-     ],
-     "enabled": true,
-     "local": true,
-     "module": "red-node-factory-config",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\red-node-factory-config\\302-equip.js"
-    },
-    "work": {
-     "name": "work",
-     "types": [
-      "concat",
-      "create_table",
-      "populate_table"
-     ],
-     "enabled": true,
-     "local": true,
-     "module": "red-node-factory-config",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\red-node-factory-config\\303-work.js"
-    },
-    "fifo": {
-     "name": "fifo",
-     "types": [
-      "fifo_Def",
-      "fifo"
-     ],
-     "enabled": true,
-     "local": true,
-     "module": "red-node-factory-config",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\red-node-factory-config\\304-fifo.js"
-    },
-    "event": {
-     "name": "event",
-     "types": [],
-     "enabled": true,
-     "local": true,
-     "module": "red-node-factory-config",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\red-node-factory-config\\305-event.js"
-    }
-   }
-  },
   "node-red-contrib-iiot-jwt": {
    "name": "node-red-contrib-iiot-jwt",
    "version": "1.0.0",
@@ -849,6 +766,89 @@
      "local": true,
      "module": "node-red-contrib-iiot-jwt",
      "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-contrib-iiot-jwt\\jwt\\jwt-out.js"
+    }
+   }
+  },
+  "node-red-factory-config": {
+   "name": "node-red-factory-config",
+   "version": "1.0.0",
+   "local": true,
+   "nodes": {
+    "factory": {
+     "name": "factory",
+     "types": [
+      "factory",
+      "areas",
+      "area",
+      "tank_areas",
+      "tank"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-factory-config",
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-factory-config\\300-factory.js"
+    },
+    "plc": {
+     "name": "plc",
+     "types": [
+      "Plcs",
+      "Server_Def",
+      "Plc_Type"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-factory-config",
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-factory-config\\301-plc.js"
+    },
+    "equip": {
+     "name": "equip",
+     "types": [
+      "equips",
+      "Equip_Def",
+      "Equip_Def_Digital",
+      "Equip_Def_Analog",
+      "Equip_Def_Alarms",
+      "Equip_Def_Carto",
+      "Equip_Def_EventList",
+      "Equip_Def_EventM",
+      "Equip_Def_EventS",
+      "equip_Type"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-factory-config",
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-factory-config\\302-equip.js"
+    },
+    "work": {
+     "name": "work",
+     "types": [
+      "concat",
+      "create_table",
+      "populate_table"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-factory-config",
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-factory-config\\303-work.js"
+    },
+    "fifo": {
+     "name": "fifo",
+     "types": [
+      "fifo_Def",
+      "fifo"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-factory-config",
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-factory-config\\304-fifo.js"
+    },
+    "event": {
+     "name": "event",
+     "types": [],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-factory-config",
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-factory-config\\305-event.js"
     }
    }
   }
