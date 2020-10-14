@@ -1,0 +1,78 @@
+{
+    "file_conf": {
+        "status": {
+            "waiting": "waiting",
+            "timeout": "timeout"
+        },
+        "label": {
+            "Server": "Server",
+            "Plc": "Plc",
+            "Plc_Brand": "Brand",
+            "Plc_Connection": "Connection",
+            "Plc_Slot": "Slot",
+            "Plc_Rack": "Rack",
+            "Plc_Ip": "Ip address",
+            "area" : "Area",
+            "input": "Input",
+            "output": "Output"
+        },
+        "placeholder": {
+            "serialport": "TOTO"
+        },
+        "Server_Type": {
+            "snap7": "Server Snap7",
+            "opc_ua": "Server Opc UA",
+            "opc_da": "Server Opc DA"
+        },
+        "Plc_Brand": {
+            "siemens": "Siemens",
+            "rockwell": "Rockwell",
+            "telemecanique": "Telemecanique"
+        },
+        "Plc_Connection": {
+            "ethernet": "Ethernet",
+            "profibus": "Profibus",
+            "DH+": "DH+"
+        },
+        "Plc_Slot": {
+            "0": "0",
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7"
+        },
+        "Plc_Rack": {
+            "0": "0",
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7"
+        },
+        "addsplit": "Add character to output messages",
+        "tip": {
+            "responsetimeout": "Tip: The default response timeout can be overridden by setting msg.timeout.",
+            "split": "Tip: the \"Split on\" character is used to split the input into separate messages. Can accept chars ($), escape codes (\\n), or hex codes (0x03).",
+            "silent": "Tip: In line-silent mode timeout is restarted upon arrival of any character (i.e. inter-byte timeout).",
+            "timeout": "Tip: In timeout mode timeout starts from arrival of first character.",
+            "count": "Tip: In count mode msg.count can override the configured count as long as it smaller than the configured value.",
+            "waitfor": "Tip: Optional. Leave blank to receive all data. Can accept chars ($), escape codes (\\n), or hex codes (0x02)." ,
+            "addchar": "Tip: This character is added to every message sent out to the serial port. Usually \\r or \\n."
+        },
+        "onopen": "serial port __port__ opened at __baud__ baud __config__",
+        "errors": {
+            "missing-conf": "missing serial config",
+            "serial-port": "Server Name",
+            "error": "serial port __port__ error: __error__",
+            "unexpected-close": "serial port __port__ closed unexpectedly",
+            "disconnected": "serial port __port__ disconnected",
+            "closed": "serial port __port__ closed",
+            "list": "Failed to list ports. Please enter manually."
+        }
+    }
+}
