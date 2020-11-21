@@ -1,0 +1,1147 @@
+[
+  {
+    "name": "sys_users",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "email": {
+        "name": "email",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "username": {
+        "name": "username",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "password": {
+        "name": "password",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "actif": {
+        "name": "actif",
+        "type": "BOOLEAN"
+      },
+      "admin": {
+        "name": "admin",
+        "type": "INT"
+      },
+      "process": {
+        "name": "process",
+        "type": "INT"
+      },
+      "direction": {
+        "name": "direction",
+        "type": "INT"
+      },
+      "manager": {
+        "name": "manager",
+        "type": "INT"
+      },
+      "superOperator": {
+        "name": "superOperator",
+        "type": "INT"
+      },
+      "Operator": {
+        "name": "Operator",
+        "type": "INT"
+      },
+      "id_Factory": {
+        "name": "Factory",
+        "type": "VARCHAR(255) NOT NULL"
+      }
+    },
+    "node": null
+  },
+  {
+    "name": "sys_computer",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "Server_Main": {
+        "name": "Server_Main",
+        "type": "BOOLEAN NOT NULL"
+      },
+      "Server_Local": {
+        "name": "Server_Local",
+        "type": "BOOLEAN NOT NULL"
+      },
+      "Computer_Local": {
+        "name": "Computer_Local",
+        "type": "BOOLEAN NOT NULL"
+      },
+      "Computer_Carto": {
+        "name": "Computer_Carto",
+        "type": "BOOLEAN NOT NULL"
+      },
+      "id_Factory": {
+        "name": "Factory",
+        "type": "VARCHAR(255) NOT NULL"
+      }
+    },
+    "node": null
+  },
+  {
+    "name": "sys_Menu_N1",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "position": {
+        "name": "position",
+        "type": "INT NOT NULL"
+      },
+      "id_Factory": {
+        "name": "Factory",
+        "type": "INT NOT NULL"
+      }
+    },
+    "node": null
+  },
+  {
+    "name": "sys_Menu_N2",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "position": {
+        "name": "position",
+        "type": "INT NOT NULL"
+      },
+      "id_Menu_N1": {
+        "name": "Factory",
+        "type": "INT NOT NULL"
+      }
+    },
+    "node": null
+  },
+
+  {
+    "name": "Conf_Factory",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : null
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "address": {
+        "name": "address",
+        "type": "TEXT NOT NULL",
+        "node" : "address"
+      },
+      "currency": {
+        "name": "currency",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "currency"
+      },
+      "currency_euro": {
+        "name": "currency_euro",
+        "type": "DOUBLE NOT NULL",
+        "node" : "currency_euro"
+      },
+      "MenuCartography": {
+        "name": "MenuCartography",
+        "type": "BOOLEAN NOT NULL",
+        "node" : "MenuCartography"
+      },
+      "MenuOptimisation": {
+        "name": "MenuOptimisation",
+        "type": "BOOLEAN NOT NULL",
+        "node" : "MenuOptimisation"
+      },
+      "MenuTraceability": {
+        "name":  "MenuTraceability",
+        "type": "BOOLEAN NOT NULL",
+        "node" : "MenuTraceability"
+      }
+    },
+    "node": "Factory"
+  },
+  {
+    "name": "Conf_Area",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : null
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : ""
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "comment": {
+        "name": "comment",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "comment"
+      },
+      "Menu": {
+        "name": "Menu",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "Menu"
+      },
+      "id_Area_Def_Carto": {
+        "name": "id_Area_Def_Carto",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Area_Def_Carto"
+      },
+      "id_Factory": {
+        "name": "id_Factory",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Factory"
+      }
+
+    },
+    "node": "Area"
+  },
+  {
+    "name": "Conf_Tank_Area",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : ""
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : ""
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "id_TankArea_Def_Carto": {
+        "name": "id_TankArea_Def_Carto",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_TankArea_Def_Carto"
+      },
+      "id_Area": {
+        "name": "id_Area",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Area"
+      }
+    },
+    "node": "Tank_Area"
+  },
+  {
+    "name": "Conf_Tank_Area_Def_Filling",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : ""
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "data_comment": {
+        "name": "data_comment",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "data_comment"
+      },
+      "data_type": {
+        "name": "data_type",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "data_type"
+      },
+      "id_Tank_Area": {
+        "name": "id_Tank_Area",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      }
+    },
+    "node": "Tank_Area_Def_Filling"
+  },
+  {
+    "name": "Conf_Tank_Area_Def_Emptying",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : ""
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "data_comment": {
+        "name": "data_comment",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "data_comment"
+      },
+      "data_type": {
+        "name": "data_type",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "data_type"
+      },
+      "id_Tank_Area": {
+        "name": "id_Area",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      }
+    },
+    "node": "Tank_Area_Def_Emptying"
+  },
+
+  {
+    "name": "Conf_Tank_Def",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : ""
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "id_Tank_Def_Digital": {
+        "name": "id_Tank_Def_Digital",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Tank_Def_Digital"
+      },
+      "id_Tank_Def_Analog": {
+        "name": "id_Tank_Def_Analog",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Tank_Def_Analog"
+      },
+      "id_Tank_Def_GAlarms": {
+        "name": "id_Tank_Def_GAlarms",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Tank_Def_GAlarms"
+      },
+      "id_Tank_Def_Carto": {
+        "name": "id_Tank_Def_Carto",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Tank_Def_Carto"
+      }
+    },
+    "node": "Tank_Def"
+  },
+  {
+    "name": "Conf_Tank",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : ""
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "id_Tank_Area": {
+        "name": "id_Area",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Tank_Area"
+      },
+      "id_Tank_Def": {
+        "name": "id_Area",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Tank_Def"
+      }
+    },
+    "node": "Tank"
+  },
+
+  {
+    "name": "Conf_Plcs",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : ""
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "id_Area": {
+        "name": "id_Area",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Area"
+      }
+    },
+    "node": "Plcs"
+  },
+  {
+    "name": "Conf_Plc",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : ""
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "id_Area": {
+        "name": "id_Area",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Area"
+      },
+      "id_Server": {
+        "name": "id_Server",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Server"
+      },
+      "Plc_Brand": {
+        "name": "Plc_Brand",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "Plc_Brand"
+      },
+      "Plc_Connection": {
+        "name": "Plc_Connection",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "Plc_Connection"
+      },
+      "Plc_Slot": {
+        "name": "Plc_Slot",
+        "type": "INT NOT NULL",
+        "node" : "Plc_Slot"
+      },
+      "Plc_Rack": {
+        "name": "Plc_Rack",
+        "type": "INT NOT NULL",
+        "node" : "Plc_Rack"
+      },
+      "Plc_Ip": {
+        "name": "Plc_Ip",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "Plc_Ip"
+      }
+    },
+    "node": "Plc"
+  },
+  {
+    "name": "Conf_Server",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : null
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "Server_Type": {
+        "name": "Server_Type",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "Server_Type"
+      },
+      "TODO": {
+        "name": "TODO",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      }
+    },
+    "node": "Server"
+  },
+
+  {
+    "name": "Conf_Fifo_Def",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : null
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      }
+    },
+    "node": "Fifo_Def"
+  },
+  {
+    "name": "Conf_Fifo",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : null
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "id_Plc": {
+        "name": "id_Plc",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Plc"
+      },
+      "id_Fifo_Def": {
+        "name": "id_Fifo_Def",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Fifo_Def"
+      },
+      "conf_DB": {
+        "name": "conf_DB",
+        "type": "INT NOT NULL",
+        "node" : "conf_DB"
+      },
+      "conf_DB_offset": {
+        "name": "conf_DB_offset",
+        "type": "INT NOT NULL",
+        "node" : "conf_DB_offset"
+      }
+    },
+    "node": "Fifo"
+  },
+
+  {
+    "name": "Conf_Equips",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : null
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "id_Plc": {
+        "name": "id_Plc",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Plc"
+      },
+      "outputs": {
+        "name": "outputs",
+        "type": "INT NOT NULL",
+        "node" : "outputs"
+      }
+    },
+    "node": "Equips"
+  },
+  {
+    "name": "Conf_Equip",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : null
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "Menu": {
+        "name": "Menu",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "Menu"
+      },
+      "id_Plc": {
+        "name": "id_Plc",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Plc"
+      },
+      "id_Equip_Def": {
+        "name": "id_Equip_Def",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Equip_Def"
+      }
+    },
+    "node": "Equip"
+  },
+  {
+    "name": "Conf_Equip_Def",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : null
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "id_Equip_Def_EventList": {
+        "name": "id_Equip_Def_EventList",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Equip_Def_EventList"
+      },
+      "id_Equip_Def_Digital": {
+        "name": "id_Equip_Def_Digital",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Equip_Def_Digital"
+      },
+      "id_Equip_Def_Analog": {
+        "name": "id_Equip_Def_Analog",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Equip_Def_Analog"
+      },
+      "id_Equip_Def_GAlarms": {
+        "name": "id_Equip_Def_GAlarms",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Equip_Def_GAlarms"
+      },
+      "id_Equip_Def_Carto": {
+        "name": "id_Equip_Def_Carto",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id_Equip_Def_Carto"
+      }
+    },
+    "node": "Equip_Def"
+  },
+
+  {
+    "name": "Conf_Equip_Def_Digital",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : null
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      }
+    },
+    "node": "Equip_Def_Digital"
+  },
+  {
+    "name": "Conf_Equip_Def_Analog",
+    "name1": {
+      "name": "name1",
+      "type": "VARCHAR(255) NOT NULL"
+    },
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : null
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      }
+    },
+    "node": "Equip_Def_Analog"
+  },
+  {
+    "name": "Conf_Equip_Def_GAlarms",
+    "name1": {
+      "name": "name1",
+      "type": "VARCHAR(255) NOT NULL"
+    },
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : null
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      }
+    },
+    "node": "Equip_Def_GAlarms"
+  },
+  {
+    "name": "Conf_Equip_Def_EventList",
+    "name1": {
+      "name": "name1",
+      "type": "VARCHAR(255) NOT NULL"
+    },
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : null
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      }
+    },
+    "node": "Equip_Def_EventList"
+  },
+
+  {
+    "name": "Conf_Equip_Def_Carto",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : null
+      },
+      "id_node": {
+        "name": "id_node",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "id"
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : "name"
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "freq_lost": {
+        "name": "freq_lost",
+        "type": "INT"
+      },
+      "freq_check": {
+        "name": "freq_check",
+        "type": "INT"
+      },
+      "delay_check": {
+        "name": "delay_check",
+        "type": "INT"
+      }
+    },
+    "node": "Equip_Def_Carto"
+  },
+
+  {
+    "name": "Info_Data",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : ""
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "address": {
+        "name": "address",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      },
+      "id_plc": {
+        "name": "id_plc",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      },
+      "id_equip": {
+        "name": "id_equip",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      }
+    },
+    "node": null
+  },
+  {
+    "name": "Info_Digital",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : ""
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "address": {
+        "name": "address",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      },
+      "id_plc": {
+        "name": "id_plc",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      },
+      "id_equip": {
+        "name": "id_equip",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      }
+    },
+    "node": null
+  },
+  {
+    "name": "Info_Analog",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : ""
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "address": {
+        "name": "address",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      },
+      "id_plc": {
+        "name": "id_plc",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      },
+      "id_equip": {
+        "name": "id_equip",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      }
+    },
+    "node": null
+  },
+  {
+    "name": "Info_Alarms",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : ""
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      },
+      "name1": {
+        "name": "name1",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      "address": {
+        "name": "address",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      },
+      "id_plc": {
+        "name": "id_plc",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      },
+      "id_equip": {
+        "name": "id_equip",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      },
+      "id_GAlarm": {
+        "name": "id_GAlarm",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      }
+    },
+    "node": null
+  },
+
+  {
+    "name": "Carto_function",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : ""
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      }
+    },
+    "node": null
+  },
+  {
+    "name": "Carto_measurement",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : ""
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      }
+    },
+    "node": null
+  },
+  {
+    "name": "Carto_functLinkTo_project",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : ""
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      }
+    },
+    "node": null
+  },
+  {
+    "name": "Carto_project",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : ""
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      }
+    },
+    "node": null
+  },
+  {
+    "name": "Carto_project_traca",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : ""
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      }
+    },
+    "node": null
+  },
+  {
+    "name": "Carto_product",
+    "Champs": {
+      "id": {
+        "name": "id",
+        "type": "INT NOT NULL AUTO_INCREMENT",
+        "node" : ""
+      },
+      "name": {
+        "name": "name",
+        "type": "VARCHAR(255) NOT NULL",
+        "node" : null
+      }
+    },
+    "node": null
+  }
+]
+
+
