@@ -4,7 +4,7 @@ module.exports = function (RED) {
     var path = require('path');
     let DataBaseServices = require("../../services/DataBaseServices");
 
-    function concat(config) {
+    function Concat(config) {
         RED.nodes.createNode(this, config);
         var node = this;
         this.on("input", function (msg, send, done) {
@@ -317,7 +317,7 @@ module.exports = function (RED) {
         ]
     ;
 
-    function create_table_Old(n) {
+    function Create_Table_Old(n) {
         RED.nodes.createNode(this, n);
         this.mydb = n.mydb;
         this.mydbConfig = RED.nodes.getNode(this.mydb);
@@ -444,7 +444,7 @@ module.exports = function (RED) {
         }
     };
 
-    function create_table(n) {
+    function Create_Table(n) {
         RED.nodes.createNode(this, n);
         this.mydb = n.mydb;
         this.mydbConfig = RED.nodes.getNode(this.mydb);
@@ -534,7 +534,7 @@ module.exports = function (RED) {
         }
     };
 
-    function populate_table(n) {
+    function Populate_Table(n) {
         RED.nodes.createNode(this, n);
         this.mydb = n.mydb;
         this.mydbConfig = RED.nodes.getNode(this.mydb);
@@ -620,7 +620,7 @@ module.exports = function (RED) {
     };
 
 
-    RED.nodes.registerType("concat", concat);
-    RED.nodes.registerType("create_table", create_table);
-    RED.nodes.registerType("populate_table", populate_table);
+    RED.nodes.registerType("Concat", Concat);
+    RED.nodes.registerType("Create_Table", Create_Table);
+    RED.nodes.registerType("Populate_Table", Populate_Table);
 };
