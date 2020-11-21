@@ -2,9 +2,9 @@
 
 <!--  *****Concat  -->
 <script type="text/javascript">
-    RED.nodes.registerType('concat',{
+    RED.nodes.registerType('Concat',{
         color: 'rgb(176, 223, 227)',
-        category: 'work',
+        category: 'Work',
         defaults: {
             name: {value:""}
         },
@@ -22,24 +22,26 @@
         },
         oneditsave: function() {
             //var node = this;
+
         }
     });
 </script>
-<script type="text/html" data-template-name="concat">
+<script type="text/html" data-template-name="Concat">
     <div class="form-row">
         <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
         <input type="text" id="node-input-name" placeholder="Name">
     </div>
 </script>
-<script type="text/html" data-help-name="concat">
+<script type="text/html" data-help-name="Concat">
     <p>Configuration to concate to file.</p>
 </script>
 
 <!--  *****Create SQL Tables  -->
 <script type="text/javascript">
-    RED.nodes.registerType('create_table',{
+    RED.nodes.registerType('Create_Table',{
+        var node = this;
         color: 'rgb(176, 223, 227)',
-        category: 'work',
+        category: 'Work',
         defaults: {
             mydb: {type:"MySQLdatabase",required:true},
             name: {value:""}
@@ -54,6 +56,9 @@
         labelStyle: function() {
             return this.name?"node_label_italic":"";
         },
+        node.on("input", function (msg) {
+
+        },
         oneditprepare: function() {
             //var node = this;
         },
@@ -62,7 +67,7 @@
         }
     });
 </script>
-<script type="text/html" data-template-name="create_table">
+<script type="text/html" data-template-name="Create_Table">
     <div class="form-row">
         <label for="node-input-mydb"><i class="fa fa-database"></i> Database</label>
         <input type="text" id="node-input-mydb">
@@ -72,15 +77,15 @@
         <input type="text" id="node-input-name" placeholder="Name">
     </div>
 </script>
-<script type="text/html" data-help-name="create_table">
+<script type="text/html" data-help-name="Create_Table">
     <p>Configuration to create SQL data tables.</p>
 </script>
 
 <!--  *****Populate SQL Tables  -->
 <script type="text/javascript">
-    RED.nodes.registerType('populate_table',{
+    RED.nodes.registerType('Populate_Table',{
         color: 'rgb(176, 223, 227)',
-        category: 'work',
+        category: 'Work',
         defaults: {
             mydb: {type:"MySQLdatabase",required:true},
             Plc : {value:""},
@@ -104,7 +109,7 @@
         }
     });
 </script>
-<script type="text/html" data-template-name="populate_table">
+<script type="text/html" data-template-name="Populate_Table">
     <div class="form-row">
         <label for="node-input-mydb"><i class="fa fa-database"></i> Database</label>
         <input type="text" id="node-input-mydb">
@@ -120,6 +125,6 @@
         </select>
     </div>
 </script>
-<script type="text/html" data-help-name="populate_table">
+<script type="text/html" data-help-name="Populate_Table">
     <p>Configuration to populate SQL data tables.</p>
 </script>
