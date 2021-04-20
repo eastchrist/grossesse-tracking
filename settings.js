@@ -47,7 +47,7 @@ module.exports = {
     //httpRequestTimeout: 120000,
 
     // The maximum length, in characters, of any message sent to the debug sidebar tab
-    debugMaxLength: 1000,
+    debugMaxLength: 10000,
 
     // The maximum number of messages nodes will buffer internally as part of their
     // operation. This applies across a range of nodes that operate on message sequences.
@@ -107,7 +107,7 @@ module.exports = {
 
     // The maximum size of HTTP request that will be accepted by the runtime api.
     // Default: 5mb
-    //apiMaxLength: '5mb',
+    apiMaxLength: '50mb',
 
     // If you installed the optional node-red-dashboard you can set it's path
     // relative to httpRoot
