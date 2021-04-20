@@ -1,0 +1,46 @@
+
+
+"a94ec732.1682c8"
+
+"93c03867.13b578"
+"de77dd2.d4085a"
+"9c674e59.f20ae8"
+"666b94b.8ee536c"
+"878b92ba.c73bb8"
+"d8f766b5.cd3bd"
+"6d87a5b0.5d17bc"
+
+"options": [
+{
+"number": "1",
+"idTank": "d737402b.a7013",
+"inLine": false,
+"inColl": true,
+"volCollInlet": "1",
+"volCollOutlet": "1"
+},
+{
+"number": "2",
+"idTank": "cc7574a6.7d8f1",
+"inLine": false,
+"inColl": true,
+"volCollInlet": "1",
+"volCollOutlet": "1"
+},
+{
+"number": "3",
+"idTank": "30a615de.9d99da",
+"inLine": false,
+"inColl": true,
+"volCollInlet": "1",
+"volCollOutlet": "1"
+},
+{
+"number": "4",
+"idTank": "14458418.52a85c",
+"inLine": false,
+"inColl": true,
+"volCollInlet": "1",
+"volCollOutlet": "1"
+}
+]
