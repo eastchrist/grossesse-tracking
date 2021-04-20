@@ -1,0 +1,6012 @@
+[
+  {
+    "id": "6c10e2cd.2123ac",
+    "type": "tab",
+    "label": "Main Flow",
+    "disabled": false,
+    "info": ""
+  },
+  {
+    "id": "525eb504.32348c",
+    "type": "tab",
+    "label": "Strauss Yogurt Factory Tanks",
+    "disabled": false,
+    "info": ""
+  },
+  {
+    "id": "4eb1d355.b49e04",
+    "type": "tab",
+    "label": "Strauss Yogurt Factory Tank Extra",
+    "disabled": false,
+    "info": ""
+  },
+  {
+    "id": "2dacd465.bd95b4",
+    "type": "EquipDefCarto",
+    "z": "",
+    "name": "Equipment Prepasto Default Cartortography",
+    "name1": "Equipment Prepasto Default Cartortography",
+    "options": [
+      {
+        "label": "Inital push /*Equip/* from /*TankAreaDefEmptying/* up to /*TankAreaDefFilling/*",
+        "type": "1",
+        "freq_check": "10",
+        "delay_check": "5",
+        "max_losse": "100"
+      },
+      {
+        "label": "Final push /*Equip/* from /*TankAreaDefEmptying/* up to /*TankAreaDefFilling/*",
+        "type": "2",
+        "freq_check": "10",
+        "delay_check": "5",
+        "max_losse": "105"
+      }
+    ]
+  },
+  {
+    "id": "b50affbd.aa9118",
+    "type": "EquipDef",
+    "z": "",
+    "name": "Equipment Prepasto Default",
+    "name1": "Equipment Prepasto Default",
+    "idEquipDefDigital": "21edaa02.8bb906",
+    "idEquipDefAnalog": "7213aa89.533e7c",
+    "idEquipDefGAlarms": "a3812603.b8fb78",
+    "idEquipDefCarto": "2dacd465.bd95b4",
+    "idEquipDefEventList": ""
+  },
+  {
+    "id": "a9c6aba4.afdfa8",
+    "type": "Server",
+    "z": "",
+    "name": "Server",
+    "ServerType": "coms7"
+  },
+  {
+    "id": "21edaa02.8bb906",
+    "type": "EquipDefDigital",
+    "z": "",
+    "name": "Equipment Prepasto Default Digital",
+    "name1": "Equipment Prepasto Default Digital",
+    "options": []
+  },
+  {
+    "id": "7213aa89.533e7c",
+    "type": "EquipDefAnalog",
+    "z": "",
+    "name": "Equipment Prepasto Default Analog",
+    "name1": "Equipment Prepasto Default Analog",
+    "options": []
+  },
+  {
+    "id": "5f82178e.62b3e",
+    "type": "TankDef",
+    "z": "",
+    "name": "Tank Definition Default",
+    "name1": "Tank Definition Default",
+    "idTankDefDigital": "ce95c744.094448",
+    "idTankDefAnalog": "2a0b090b.8f9586",
+    "idTankDefGAlarms": "d590a76e.1b27f"
+  },
+  {
+    "id": "5b472019.6d2ea",
+    "type": "EquipDef",
+    "z": "",
+    "name": "Equipment Reception Default",
+    "name1": "Equipment Reception Default",
+    "idEquipDefDigital": "b959702c.e1fcf",
+    "idEquipDefAnalog": "c432e091.3ebad",
+    "idEquipDefGAlarms": "",
+    "idEquipDefCarto": "be5d9d87.d0e3e8",
+    "idEquipDefEventList": ""
+  },
+  {
+    "id": "b959702c.e1fcf",
+    "type": "EquipDefDigital",
+    "z": "",
+    "name": "Equipment Reception Default Digital",
+    "name1": "Equipment Reception Default Digital",
+    "options": [
+      {
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "c432e091.3ebad",
+    "type": "EquipDefAnalog",
+    "z": "",
+    "name": "Equipment Reception Default Analog",
+    "name1": "Equipment Reception Default Analog",
+    "options": [
+      {
+        "label": "",
+        "type": "Real"
+      }
+    ]
+  },
+  {
+    "id": "be5d9d87.d0e3e8",
+    "type": "EquipDefCarto",
+    "z": "",
+    "name": "Equipment Reception Default Cartography",
+    "name1": "Equipment Reception Default Cartography",
+    "options": [
+      {
+        "label": "Inital push /*Equip/* from /*TankAreaDefEmptying/* up to /*TankAreaDefFilling/*",
+        "type": "1",
+        "freq_check": "10",
+        "delay_check": "5",
+        "max_losse": "50"
+      },
+      {
+        "label": "Final push /*Equip/* from /*TankAreaDefEmptying/* up to /*TankAreaDefFilling/*",
+        "type": "2",
+        "freq_check": "10",
+        "delay_check": "5",
+        "max_losse": "51"
+      }
+    ]
+  },
+  {
+    "id": "ce95c744.094448",
+    "type": "EquipDefDigital",
+    "z": "",
+    "name": "TankDefDigital",
+    "name1": "TankDefDigital",
+    "options": [
+      {
+        "label": ""
+      }
+    ]
+  },
+  {
+    "id": "2a0b090b.8f9586",
+    "type": "EquipDefAnalog",
+    "z": "",
+    "name": "TankDefAnalog",
+    "name1": "TankDefAnalog",
+    "options": [
+      {
+        "label": "",
+        "type": "Real"
+      }
+    ]
+  },
+  {
+    "id": "d590a76e.1b27f",
+    "type": "EquipDefGAlarms",
+    "z": "",
+    "name": "TankDefGAlarm",
+    "name1": "TankDefGAlarm",
+    "options": []
+  },
+  {
+    "id": "82700ff5.0c738",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 01 Road Truck emptying to Line 1 truck empying",
+    "name1": "Strauss 01 Road Truck emptying to Line 1 truck empying",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "376579da.a3b956",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 01 Road Truck emptying to Line 2 truck empying",
+    "name1": "Strauss 01 Road Truck emptying to Line 2 truck empying",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "7a5d42d.1515f3c",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 02 TankArea RawMilk filling from line 1 truck emptying",
+    "name1": "Strauss 02 TankArea RawMilk filling from line 1 truck emptying",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "b726b7bf.35acd8",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 02 TankArea RawMilk filling from line 2 truck emptying",
+    "name1": "Strauss 02 TankArea RawMilk filling from line 2 truck emptying",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "a3812603.b8fb78",
+    "type": "EquipDefGAlarms",
+    "z": "",
+    "name": "Equipment Prepasto Default Galarm",
+    "name1": "Equipment Prepasto Default Galarm",
+    "options": []
+  },
+  {
+    "id": "e9247e74.c47d9",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 02 TankArea RawMilk emptying to Prepasto MP011",
+    "name1": "Strauss 02 TankArea RawMilk emptying to Prepasto MP011",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "ea0f1957.39d5e8",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 02 TankArea RawMilk emptying to Prepasto MP021",
+    "name1": "Strauss 02 TankArea RawMilk emptying to Prepasto MP021",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "ae192086.c697e8",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 03Bis TankArea_CreamBuffer  filling from prepasto MP011",
+    "name1": "Strauss 03Bis TankArea_CreamBuffer  filling from prepasto MP011",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "e70286a9.78d29",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 03Bis TankArea_CreamBuffer  filling from prepasto MP021",
+    "name1": "Strauss 03Bis TankArea_CreamBuffer  filling from prepasto MP021",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "7209ba59.f501dc",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 04 TankArea_SkimMilk filling from MP011",
+    "name1": "Strauss 04 TankArea_SkimMilk filling from MP011",
+    "dataComment": "",
+    "options": [
+      {
+        "number": "",
+        "idTank": "ca0d45ef.270a68",
+        "inLine": false,
+        "inColl": false,
+        "volCollInlet": "",
+        "volCollOutlet": ""
+      }
+    ]
+  },
+  {
+    "id": "61e7e04.19ad42",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 04 TankArea_SkimMilk filling from MP021",
+    "name1": "Strauss 04 TankArea_SkimMilk filling from MP021",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "d8b56568.564a5",
+    "type": "EquipDef",
+    "z": "",
+    "name": "Equipment Dosing Default",
+    "name1": "Equipment Dosing Default",
+    "idEquipDefDigital": "4ca0aaf1.b0f974",
+    "idEquipDefAnalog": "995031af.7a82a8",
+    "idEquipDefGAlarms": "adfc89bf.748008",
+    "idEquipDefCarto": "bc1583b2.1db53",
+    "idEquipDefEventList": "acddd16f.281e4"
+  },
+  {
+    "id": "4ca0aaf1.b0f974",
+    "type": "EquipDefDigital",
+    "z": "",
+    "name": "Equipment Dosing Default Digital",
+    "name1": "Equipment Dosing Default Digital",
+    "options": []
+  },
+  {
+    "id": "995031af.7a82a8",
+    "type": "EquipDefAnalog",
+    "z": "",
+    "name": "Equipment Dosing Default Analog",
+    "name1": "Equipment Dosing Default Analog",
+    "options": []
+  },
+  {
+    "id": "adfc89bf.748008",
+    "type": "EquipDefGAlarms",
+    "z": "",
+    "name": "Equipment Dosing Default Galarm",
+    "name1": "Equipment Dosing Default Galarm",
+    "options": []
+  },
+  {
+    "id": "bc1583b2.1db53",
+    "type": "EquipDefCarto",
+    "z": "",
+    "name": "Equipment Dosing Default Cartography",
+    "name1": "Equipment Dosing Default Cartography",
+    "options": []
+  },
+  {
+    "id": "acddd16f.281e4",
+    "type": "EquipDefEventList",
+    "z": "",
+    "name": "Equipment Dosing Default Event",
+    "name1": "Equipment Dosing Default Event",
+    "EquipDefEventM": "",
+    "Fifo_Def": "",
+    "options": []
+  },
+  {
+    "id": "de77dd2.d4085a",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 03 TankArea_Cream empying to yogurt dosing Cream",
+    "name1": "Strauss 03 TankArea_Cream empying to yogurt dosing Cream",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "af97cfbd.705988",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 05 TankArea Mixing Yogurt filling from Yogurt dosing cream",
+    "name1": "Strauss 05 TankArea Mixing Yogurt filling from Yogurt dosing cream",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "89aa94aa.b29f",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 05 TankArea Mixing Yogurt filling from Yogurt dosing Skim milk",
+    "name1": "Strauss 05 TankArea Mixing Yogurt filling from Yogurt dosing Skim milk",
+    "dataComment": "",
+    "options": [
+      {
+        "number": "",
+        "idTank": "ca0d45ef.270a68",
+        "inLine": false,
+        "inColl": false,
+        "volCollInlet": "",
+        "volCollOutlet": ""
+      }
+    ]
+  },
+  {
+    "id": "4e5a7f26.bb1ec",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 04 TankArea_SkimMilk emptying to yogurt dosing skim milk",
+    "name1": "Strauss 04 TankArea_SkimMilk emptying to yogurt dosing skim milk",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "a7aac15e.64554",
+    "type": "EquipDef",
+    "z": "",
+    "name": "Equipment Mixing loop Default",
+    "name1": "Equipment Mixing loop Default",
+    "idEquipDefDigital": "ace5b3fb.76ac88",
+    "idEquipDefAnalog": "64370c24.04f214",
+    "idEquipDefGAlarms": "2f7bc53.5557bba",
+    "idEquipDefCarto": "c6c5f3dc.847ec",
+    "idEquipDefEventList": "e6927bf1.91077"
+  },
+  {
+    "id": "e6927bf1.91077",
+    "type": "EquipDefEventList",
+    "z": "",
+    "name": "Equipment Mixing loop Default Event",
+    "name1": "Equipment Mixing loop Default Event",
+    "EquipDefEventM": "",
+    "Fifo_Def": "",
+    "options": []
+  },
+  {
+    "id": "ace5b3fb.76ac88",
+    "type": "EquipDefDigital",
+    "z": "",
+    "name": "Equipment Mixing loop Default Digital",
+    "name1": "Equipment Mixing loop Default Digital",
+    "options": []
+  },
+  {
+    "id": "64370c24.04f214",
+    "type": "EquipDefAnalog",
+    "z": "",
+    "name": "Equipment Mixing loop Default Analog",
+    "name1": "Equipment Mixing loop Default Analog",
+    "options": []
+  },
+  {
+    "id": "2f7bc53.5557bba",
+    "type": "EquipDefGAlarms",
+    "z": "",
+    "name": "Equipment Mixing loop Default Galarm",
+    "name1": "Equipment Mixing loop Default Galarm",
+    "options": []
+  },
+  {
+    "id": "c6c5f3dc.847ec",
+    "type": "EquipDefCarto",
+    "z": "",
+    "name": "Equipment Mixing loop Default Cartography",
+    "name1": "Equipment Mixing loop Default Cartography",
+    "options": []
+  },
+  {
+    "id": "db6348be.2fc3e",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 05 TankArea Mixing Yogurt filling from Yogurt mixing loop",
+    "name1": "Strauss 05 TankArea Mixing Yogurt filling from Yogurt mixing loop",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "ba42ad95.95eb4",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 05 TankArea Mixing Yogurt emptying to Yogurt mixing loop",
+    "name1": "Strauss 05 TankArea Mixing Yogurt emptying to Yogurt mixing loop",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "cd33987.20c1ce8",
+    "type": "EquipDef",
+    "z": "",
+    "name": "Equipment cooling loop Default",
+    "name1": "Equipment cooling loop Default",
+    "idEquipDefDigital": "83bd178.77062e8",
+    "idEquipDefAnalog": "95752052.0b50f",
+    "idEquipDefGAlarms": "f7217028.133768",
+    "idEquipDefCarto": "b5c43ee.2cb464",
+    "idEquipDefEventList": "638962a6.ff60dc"
+  },
+  {
+    "id": "638962a6.ff60dc",
+    "type": "EquipDefEventList",
+    "z": "",
+    "name": "Equipment cooling loop Default Event",
+    "name1": "Equipment cooling loop Default Event",
+    "EquipDefEventM": "",
+    "Fifo_Def": "",
+    "options": []
+  },
+  {
+    "id": "83bd178.77062e8",
+    "type": "EquipDefDigital",
+    "z": "",
+    "name": "Equipment cooling loop Default Digital",
+    "name1": "Equipment cooling loop Default Digital",
+    "options": []
+  },
+  {
+    "id": "95752052.0b50f",
+    "type": "EquipDefAnalog",
+    "z": "",
+    "name": "Equipment cooling loop Default Analog",
+    "name1": "Equipment cooling loop Default Analog",
+    "options": []
+  },
+  {
+    "id": "f7217028.133768",
+    "type": "EquipDefGAlarms",
+    "z": "",
+    "name": "Equipment cooling loop Default Galarm",
+    "name1": "Equipment cooling loop Default Galarm",
+    "options": []
+  },
+  {
+    "id": "b5c43ee.2cb464",
+    "type": "EquipDefCarto",
+    "z": "",
+    "name": "Equipment cooling loop Default Cartography",
+    "name1": "Equipment cooling loop Default Cartography",
+    "options": []
+  },
+  {
+    "id": "530018ce.934e88",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 05 TankArea Mixing Yogurt filling from cooling loop",
+    "name1": "Strauss 05 TankArea Mixing Yogurt filling from cooling loop",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "855f0b8a.926ec",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 05 TankArea Mixing Yogurt emptying to cooling loop",
+    "name1": "Strauss 05 TankArea Mixing Yogurt emptying to cooling loop",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "8d9c905e.2f1c18",
+    "type": "EquipDefEventList",
+    "z": "",
+    "name": "Equipment Pasto Default Event",
+    "name1": "Equipment Pasto Default Event",
+    "EquipDefEventM": "",
+    "Fifo_Def": "",
+    "options": []
+  },
+  {
+    "id": "a3d623b8.2ec0c8",
+    "type": "EquipDefDigital",
+    "z": "",
+    "name": "Equipment Pasto Default Digital",
+    "name1": "Equipment Pasto Default Digital",
+    "options": []
+  },
+  {
+    "id": "a21f56e1.94ae98",
+    "type": "EquipDefAnalog",
+    "z": "",
+    "name": "Equipment Pasto Default Analog",
+    "name1": "Equipment Pasto Default Analog",
+    "options": []
+  },
+  {
+    "id": "be1c97c6.92cf18",
+    "type": "EquipDefGAlarms",
+    "z": "",
+    "name": "Equipment Pasto Default Galarm",
+    "name1": "Equipment Pasto Default Galarm",
+    "options": []
+  },
+  {
+    "id": "45106a66.6ddcdc",
+    "type": "EquipDefCarto",
+    "z": "",
+    "name": "Equipment Pasto Default Cartography",
+    "name1": "Equipment Pasto Default Cartography",
+    "options": []
+  },
+  {
+    "id": "b1076362.d550d8",
+    "type": "EquipDef",
+    "z": "",
+    "name": "Equipment Pasto Default",
+    "name1": "Equipment Pasto Default",
+    "idEquipDefDigital": "a3d623b8.2ec0c8",
+    "idEquipDefAnalog": "a21f56e1.94ae98",
+    "idEquipDefGAlarms": "be1c97c6.92cf18",
+    "idEquipDefCarto": "45106a66.6ddcdc",
+    "idEquipDefEventList": "8d9c905e.2f1c18"
+  },
+  {
+    "id": "215518bb.70c758",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 05 TankArea Mixing Yogurt emptying to Pasto YP001",
+    "name1": "Strauss 05 TankArea Mixing Yogurt emptying to Pasto YP001",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "bf20b0b2.555228",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 21 TankArea yogurt fermentation tank filling from pasto YP001",
+    "name1": "Strauss 21 TankArea yogurt fermentation tank filling from pasto YP001",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "c8474090.9c2a38",
+    "type": "EquipDefEventList",
+    "z": "",
+    "name": "Equipment Cooler Default Event",
+    "name1": "Equipment Cooler Default Event",
+    "EquipDefEventM": "",
+    "Fifo_Def": "",
+    "options": []
+  },
+  {
+    "id": "935b30e6.af7cd",
+    "type": "EquipDefDigital",
+    "z": "",
+    "name": "Equipment Cooler Default Digital",
+    "name1": "Equipment Cooler Default Digital",
+    "options": []
+  },
+  {
+    "id": "95175976.7a3258",
+    "type": "EquipDefAnalog",
+    "z": "",
+    "name": "Equipment Cooler Default Analog",
+    "name1": "Equipment Cooler Default Analog",
+    "options": []
+  },
+  {
+    "id": "4f0f7cd.2a39e04",
+    "type": "EquipDefGAlarms",
+    "z": "",
+    "name": "Equipment Cooler Default GAlarm",
+    "name1": "Equipment Cooler Default GAlarm",
+    "options": []
+  },
+  {
+    "id": "72c89e7e.7917b",
+    "type": "EquipDefCarto",
+    "z": "",
+    "name": "Equipment Cooler Default Cartography",
+    "name1": "Equipment Cooler Default Cartography",
+    "options": []
+  },
+  {
+    "id": "75f5f0a4.eb6028",
+    "type": "EquipDef",
+    "z": "",
+    "name": "Equipment Cooler Default",
+    "name1": "Equipment Cooler Default",
+    "idEquipDefDigital": "935b30e6.af7cd",
+    "idEquipDefAnalog": "95175976.7a3258",
+    "idEquipDefGAlarms": "4f0f7cd.2a39e04",
+    "idEquipDefCarto": "72c89e7e.7917b",
+    "idEquipDefEventList": "c8474090.9c2a38"
+  },
+  {
+    "id": "7a08efa2.98192",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 21 TankArea yogurt fermentation tank emptying to cooler YK202",
+    "name1": "Strauss 21 TankArea yogurt fermentation tank emptying to cooler YK202",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "9376d227.8f02f",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 21 TankArea yogurt fermentation tank emptying to cooler YK204",
+    "name1": "Strauss 21 TankArea yogurt fermentation tank emptying to cooler YK204",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "e92f7644.8971c8",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 21 TankArea yogurt fermentation tank emptying to pasto QP631",
+    "name1": "Strauss 21 TankArea yogurt fermentation tank emptying to pasto QP631",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "59c77182.4ccab8",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 24 TankArea yogurt storage tank filling from Cooler YK202",
+    "name1": "Strauss 24 TankArea yogurt storage tank filling from Cooler YK202",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "6f92329.89490cc",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 24 TankArea yogurt storage tank filling from Cooler YK204",
+    "name1": "Strauss 24 TankArea yogurt storage tank filling from Cooler YK204",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "aa888cc8.ab349",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 24 TankArea yogurt storage tank emptying to Arcil 1",
+    "name1": "Strauss 24 TankArea yogurt storage tank emptying to Arcil 1",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "6dd18f71.cc8e7",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 24 TankArea yogurt storage tank emptying to Arcil 2",
+    "name1": "Strauss 24 TankArea yogurt storage tank emptying to Arcil 2",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "81ae494b.cd0588",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 24 TankArea yogurt storage tank emptying to Arcil 3",
+    "name1": "Strauss 24 TankArea yogurt storage tank emptying to Arcil 3",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "a52ed95c.0945a",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 24 TankArea yogurt storage tank emptying to PackLine and Byloopack",
+    "name1": "Strauss 24 TankArea yogurt storage tank emptying to PackLine and Byloopack",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "2d2ad834.ae9b58",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 24 TankArea yogurt storage tank emptying to Ermi",
+    "name1": "Strauss 24 TankArea yogurt storage tank emptying to Ermi",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "db0544f7.a3cca",
+    "type": "EquipDefEventList",
+    "z": "",
+    "name": "Equipment Filler Arcil Default Event",
+    "name1": "Equipment Filler Arcil Default Event",
+    "EquipDefEventM": "",
+    "Fifo_Def": "",
+    "options": []
+  },
+  {
+    "id": "7500ee06.d52708",
+    "type": "EquipDefDigital",
+    "z": "",
+    "name": "Equipment Filler Arcil Default Digital",
+    "name1": "Equipment Filler Arcil Default Digital",
+    "options": []
+  },
+  {
+    "id": "6d9202aa.690484",
+    "type": "EquipDefAnalog",
+    "z": "",
+    "name": "Equipment Filler Arcil Default Analog",
+    "name1": "Equipment Filler Arcil Default Analog",
+    "options": []
+  },
+  {
+    "id": "c4157a9f.21ac68",
+    "type": "EquipDefGAlarms",
+    "z": "",
+    "name": "Equipment Filler Arcil Default GAlarm",
+    "name1": "Equipment Filler Arcil Default GAlarm",
+    "options": []
+  },
+  {
+    "id": "8f49c203.a53c8",
+    "type": "EquipDefCarto",
+    "z": "",
+    "name": "Equipment Filler Arcil Default Cartography",
+    "name1": "Equipment Filler Arcil Default Cartography",
+    "options": []
+  },
+  {
+    "id": "1d5fb632.ae07b2",
+    "type": "EquipDef",
+    "z": "",
+    "name": "Equipment Filler Arcil Default",
+    "name1": "Equipment Filler Arcil Default",
+    "idEquipDefDigital": "7500ee06.d52708",
+    "idEquipDefAnalog": "6d9202aa.690484",
+    "idEquipDefGAlarms": "c4157a9f.21ac68",
+    "idEquipDefCarto": "8f49c203.a53c8",
+    "idEquipDefEventList": "db0544f7.a3cca"
+  },
+  {
+    "id": "ead3e1df.6dde58",
+    "type": "EquipDef",
+    "z": "",
+    "name": "Equipment Filler PackLine Default",
+    "name1": "Equipment Filler PackLine Default",
+    "idEquipDefDigital": "f946be8c.3fe958",
+    "idEquipDefAnalog": "6b8eec5c.01340c",
+    "idEquipDefGAlarms": "14b367f7.7807f",
+    "idEquipDefCarto": "cff386bc.d9ca6",
+    "idEquipDefEventList": "276f3415.6e33f4"
+  },
+  {
+    "id": "276f3415.6e33f4",
+    "type": "EquipDefEventList",
+    "z": "",
+    "name": "Equipment Filler PackLine Default Event",
+    "name1": "Equipment Filler PackLine Default Event",
+    "EquipDefEventM": "",
+    "Fifo_Def": "",
+    "options": []
+  },
+  {
+    "id": "f946be8c.3fe958",
+    "type": "EquipDefDigital",
+    "z": "",
+    "name": "Equipment Filler PackLine Default Digital",
+    "name1": "Equipment Filler PackLine Default Digital",
+    "options": []
+  },
+  {
+    "id": "6b8eec5c.01340c",
+    "type": "EquipDefAnalog",
+    "z": "",
+    "name": "Equipment Filler PackLine Default Analog",
+    "name1": "Equipment Filler PackLine Default Analog",
+    "options": []
+  },
+  {
+    "id": "14b367f7.7807f",
+    "type": "EquipDefGAlarms",
+    "z": "",
+    "name": "Equipment Filler PackLine Default GAlarm",
+    "name1": "Equipment Filler PackLine Default GAlarm",
+    "options": []
+  },
+  {
+    "id": "cff386bc.d9ca6",
+    "type": "EquipDefCarto",
+    "z": "",
+    "name": "Equipment Filler PackLine Default Cartography",
+    "name1": "Equipment Filler PackLine Default Cartography",
+    "options": []
+  },
+  {
+    "id": "13b6ad78.935213",
+    "type": "EquipDef",
+    "z": "",
+    "name": "Equipment Filler Byloopack Default",
+    "name1": "Equipment Filler Byloopack Default",
+    "idEquipDefDigital": "656a0f17.3b1f08",
+    "idEquipDefAnalog": "4b30eb24.02cacc",
+    "idEquipDefGAlarms": "48e79713.623ce8",
+    "idEquipDefCarto": "e018a46d.447e8",
+    "idEquipDefEventList": "c10c3116.b63e3"
+  },
+  {
+    "id": "c10c3116.b63e3",
+    "type": "EquipDefEventList",
+    "z": "",
+    "name": "Equipment Filler Byloopack Default Event",
+    "name1": "Equipment Filler Byloopack Default Event",
+    "EquipDefEventM": "",
+    "Fifo_Def": "",
+    "options": []
+  },
+  {
+    "id": "656a0f17.3b1f08",
+    "type": "EquipDefDigital",
+    "z": "",
+    "name": "Equipment Filler Byloopack Default Digital",
+    "name1": "Equipment Filler Byloopack Default Digital",
+    "options": []
+  },
+  {
+    "id": "4b30eb24.02cacc",
+    "type": "EquipDefAnalog",
+    "z": "",
+    "name": "Equipment Filler Byloopack Default Analog",
+    "name1": "Equipment Filler Byloopack Default Analog",
+    "options": []
+  },
+  {
+    "id": "48e79713.623ce8",
+    "type": "EquipDefGAlarms",
+    "z": "",
+    "name": "Equipment Filler Byloopack Default GAlarm",
+    "name1": "Equipment Filler Byloopack Default GAlarm",
+    "options": []
+  },
+  {
+    "id": "e018a46d.447e8",
+    "type": "EquipDefCarto",
+    "z": "",
+    "name": "Equipment Filler Byloopack Default Cartography",
+    "name1": "Equipment Filler Byloopack Default Cartography",
+    "options": []
+  },
+  {
+    "id": "ab356193.47e85",
+    "type": "EquipDef",
+    "z": "",
+    "name": "Equipment Filler Ermi Default",
+    "name1": "Equipment Filler Ermi Default",
+    "idEquipDefDigital": "e511eff5.7d2df8",
+    "idEquipDefAnalog": "77e02d5.96228d4",
+    "idEquipDefGAlarms": "257e7395.8734fc",
+    "idEquipDefCarto": "762dac17.54aadc",
+    "idEquipDefEventList": "1d8eecdf.7ad4b3"
+  },
+  {
+    "id": "1d8eecdf.7ad4b3",
+    "type": "EquipDefEventList",
+    "z": "",
+    "name": "Equipment Filler Ermi Default Event",
+    "name1": "Equipment Filler Ermi Default Event",
+    "EquipDefEventM": "",
+    "Fifo_Def": "",
+    "options": []
+  },
+  {
+    "id": "e511eff5.7d2df8",
+    "type": "EquipDefDigital",
+    "z": "",
+    "name": "Equipment Filler Ermi Default Digital",
+    "name1": "Equipment Filler Ermi Default Digital",
+    "options": []
+  },
+  {
+    "id": "77e02d5.96228d4",
+    "type": "EquipDefAnalog",
+    "z": "",
+    "name": "Equipment Filler Ermi Default Analog",
+    "name1": "Equipment Filler Ermi Default Analog",
+    "options": []
+  },
+  {
+    "id": "257e7395.8734fc",
+    "type": "EquipDefGAlarms",
+    "z": "",
+    "name": "Equipment Filler Ermi Default GAlarm",
+    "name1": "Equipment Filler Ermi Default GAlarm",
+    "options": []
+  },
+  {
+    "id": "762dac17.54aadc",
+    "type": "EquipDefCarto",
+    "z": "",
+    "name": "Equipment Filler Ermi Default Cartography",
+    "name1": "Equipment Filler Ermi Default Cartography",
+    "options": []
+  },
+  {
+    "id": "9c674e59.f20ae8",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 03 TankArea_Cream empying to cottage dosing Cream",
+    "name1": "Strauss 03 TankArea_Cream empying to cottage dosing Cream",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "dfd00f99.ea77a",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 04 TankArea_SkimMilk emptying to cottage dosing skim milk",
+    "name1": "Strauss 04 TankArea_SkimMilk emptying to cottage dosing skim milk",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "7a20d330.895a1c",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 14 TankArea Dressing mixing tank filling from cream dosage",
+    "name1": "Strauss 14 TankArea Dressing mixing tank filling from cream dosage",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "3017d7d9.a0c91",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 14 TankArea Dressing mixing tank filling from skim milk dosage",
+    "name1": "Strauss 14 TankArea Dressing mixing tank filling from skim milk dosage",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "ed8646ab.1ff08",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 14 TankArea Dressing mixing tank filling from mixing loop",
+    "name1": "Strauss 14 TankArea Dressing mixing tank filling from mixing loop",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "2882634b.f127bc",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 14 TankArea Dressing mixing tank emptying to mixing loop",
+    "name1": "Strauss 14 TankArea Dressing mixing tank emptying to mixing loop",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "38e74000.40b7f",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 14 TankArea Dressing mixing tank emptying to cottage pasto CP131",
+    "name1": "Strauss 14 TankArea Dressing mixing tank emptying to cottage pasto CP131",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "bb6238ee.33b0f",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 15 TankArea cottage dressing tank filling from cottage pasto CP131",
+    "name1": "Strauss 15 TankArea cottage dressing tank filling from cottage pasto CP131",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "1b6c161b.8eecca",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 04 TankArea_SkimMilk emptying to cottage pasto CP101",
+    "name1": "Strauss 04 TankArea_SkimMilk emptying to cottage pasto CP101",
+    "dataComment": "",
+    "options": [
+      {
+        "number": "",
+        "idTank": "ca0d45ef.270a68",
+        "inLine": false,
+        "inColl": false,
+        "volCollInlet": "",
+        "volCollOutlet": ""
+      }
+    ]
+  },
+  {
+    "id": "d2f68368.b572d8",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 16 TankArea cottage VAT tank filling from Cottage pasto CP101",
+    "name1": "Strauss 16 TankArea cottage VAT tank filling from Cottage pasto CP101",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "bcb85d58.b2b688",
+    "type": "EquipDef",
+    "z": "",
+    "name": "Equipment Creamer Default",
+    "name1": "Equipment Creamer Default",
+    "idEquipDefDigital": "998c710d.a5878",
+    "idEquipDefAnalog": "54ea16d3.e92f3",
+    "idEquipDefGAlarms": "5c6b601c.ad517",
+    "idEquipDefCarto": "36010bf2.6a8fec",
+    "idEquipDefEventList": "e336cf84.5ac368"
+  },
+  {
+    "id": "e336cf84.5ac368",
+    "type": "EquipDefEventList",
+    "z": "",
+    "name": "Equipment Creamer Default Event",
+    "name1": "Equipment Creamer Default Event",
+    "EquipDefEventM": "",
+    "Fifo_Def": "",
+    "options": []
+  },
+  {
+    "id": "998c710d.a5878",
+    "type": "EquipDefDigital",
+    "z": "",
+    "name": "Equipment Creamer Default Digital",
+    "name1": "Equipment Creamer Default Digital",
+    "options": []
+  },
+  {
+    "id": "54ea16d3.e92f3",
+    "type": "EquipDefAnalog",
+    "z": "",
+    "name": "Equipment Creamer Default Analog",
+    "name1": "Equipment Creamer Default Analog",
+    "options": []
+  },
+  {
+    "id": "5c6b601c.ad517",
+    "type": "EquipDefGAlarms",
+    "z": "",
+    "name": "Equipment Creamer Default Galarm",
+    "name1": "Equipment Creamer Default Galarm",
+    "options": []
+  },
+  {
+    "id": "36010bf2.6a8fec",
+    "type": "EquipDefCarto",
+    "z": "",
+    "name": "Equipment Creamer Default Carto",
+    "name1": "Equipment Creamer Default Carto",
+    "options": []
+  },
+  {
+    "id": "95253f60.6f36b8",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 15 TankArea cottage dressing tank emptying to cottage creamer",
+    "name1": "Strauss 15 TankArea cottage dressing tank emptying to cottage creamer",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "c2d410e0.703e2",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 17 TankArea cottage creamer tank filling from cottage dressing tank",
+    "name1": "Strauss 17 TankArea cottage creamer tank filling from cottage dressing tank",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "aef686d0.fdb218",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 17 TankArea cottage creamer tank emtying to cottage buffer tank",
+    "name1": "Strauss 17 TankArea cottage creamer tank emtying to cottage buffer tank",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "57f5f586.10e89c",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 19 TankArea cottage buffer tank filling from Cottage Creamer",
+    "name1": "Strauss 19 TankArea cottage buffer tank filling from Cottage Creamer",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "4aeee193.3a03f8",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 16 TankArea cottage VAT tank emptying to cottage washer cooler",
+    "name1": "Strauss 16 TankArea cottage VAT tank emptying to cottage washer cooler",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "4ad3fdb0.cdc234",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 18 TankArea cottage washer cooler tank filling from cottage VAT tank",
+    "name1": "cottage washer cooler tank filling from cottage VAT tank",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "d307f8b1.aa649",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 18 TankArea cottage washer cooler tank emptying to cottage creamer",
+    "name1": "cottage washer cooler tank emptying to cottage creamer",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "a94ec732.1682c8",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 03 TankArea_Cream filling from cream buffer MT018",
+    "name1": "TankArea_Cream filling from cream buffer MT018",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "93c03867.13b578",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 03 TankArea_Cream filling from cream buffer MT028",
+    "name1": "TankArea_Cream filling from cream buffer MT028",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "3502b2e0.53347e",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 03Bis TankArea_CreamBuffer_MT018  emptying to TankArea cream",
+    "name1": "Strauss 03Bis TankArea_CreamBuffer_MT018  emptying to TankArea cream",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "cc28d8c4.93fd08",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 03Bis TankArea_CreamBuffer_MT028  emptying to TankArea cream",
+    "name1": "Strauss 03Bis TankArea_CreamBuffer_MT028  emptying to TankArea cream",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "83d374.e0e9149",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 04 TankArea_SkimMilk emptying to actimel dosing skim milk",
+    "name1": "Strauss 04 TankArea_SkimMilk emptying to actimel dosing skim milk",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "92aff896.1dfed8",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 20 TankArea actimel mixing tank filling from skim milk dosage",
+    "name1": "Strauss 20 TankArea actimel mixing tank filling from skim milk dosage",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "fb0b1e57.511f9",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 20 TankArea actimel mixing tank filling from mixing loop",
+    "name1": "Strauss 20 TankArea actimel mixing tank filling from mixing loop",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "39b5fcab.e1ba7c",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 20 TankArea actimel mixing tank emptying to mixing loop",
+    "name1": "Strauss 20 TankArea actimel mixing tank emptying to mixing loop",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "b935c6f1.648f18",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 20 TankArea actimel mixing tank emptying to Actimel Pasto YP002",
+    "name1": "Strauss 20 TankArea actimel mixing tank emptying to Actimel Pasto YP002",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "cc2ee914.747698",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 22 TankArea actimel fermentation tank filling from Actimel Pasto YP002",
+    "name1": "Strauss 22 TankArea actimel fermentation tank filling from Actimel Pasto YP002",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "ff95ebec.00401",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 23 TankArea actimel 3 phase mixing tank filling from Actimel Pasto YP002",
+    "name1": "Strauss 23 TankArea actimel 3 phase mixing tank filling from Actimel Pasto YP002",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "3b5248a8.57f678",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 23 TankArea actimel 3 phase mixing tank emptying to Actimel cooler",
+    "name1": "Strauss 23 TankArea actimel 3 phase mixing tank emptying to Actimel cooler",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "cca3d39e.4a4e1",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 24 TankArea yogurt storage tank filling from Actimel cooler",
+    "name1": "Strauss 24 TankArea yogurt storage tank filling from Actimel cooler",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "37258e58.b85922",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 22 TankArea actimel fermentation tank emptying to 3 phase mixing storage tank",
+    "name1": "Strauss 22 TankArea actimel fermentation tank emptying to 3 phase mixing storage tank",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "44a72948.9cc36",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 23 TankArea actimel 3 phase mixing tank filling casei from actimel fermentation tank",
+    "name1": "Strauss 23 TankArea actimel 3 phase mixing tank filling casei from actimel fermentation tank",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "1d4a533f.528585",
+    "type": "EquipDefEventList",
+    "z": "",
+    "name": "Equipment Thermizer Default Event",
+    "name1": "Equipment Thermizer Default Event",
+    "EquipDefEventM": "",
+    "Fifo_Def": "",
+    "options": []
+  },
+  {
+    "id": "16890b8e.f11f2c",
+    "type": "EquipDefDigital",
+    "z": "",
+    "name": "Equipment Thermizer Default Digital",
+    "name1": "Equipment Thermizer Default Digital",
+    "options": []
+  },
+  {
+    "id": "957b7d77.1799e",
+    "type": "EquipDefAnalog",
+    "z": "",
+    "name": "Equipment Thermizer Default Analog",
+    "name1": "Equipment Thermizer Default Analog",
+    "options": []
+  },
+  {
+    "id": "14790cd5.c5041b",
+    "type": "EquipDefGAlarms",
+    "z": "",
+    "name": "Equipment Thermizer Default Galarm",
+    "name1": "Equipment Thermizer Default Galarm",
+    "options": []
+  },
+  {
+    "id": "693a30da.66e758",
+    "type": "EquipDefCarto",
+    "z": "",
+    "name": "Equipment Thermizer Default Cartography",
+    "name1": "Equipment Thermizer Default Cartography",
+    "options": []
+  },
+  {
+    "id": "7703c802.39f228",
+    "type": "EquipDef",
+    "z": "",
+    "name": "Equipment Thermizer Default",
+    "name1": "Equipment Thermizer Default",
+    "idEquipDefDigital": "16890b8e.f11f2c",
+    "idEquipDefAnalog": "957b7d77.1799e",
+    "idEquipDefGAlarms": "14790cd5.c5041b",
+    "idEquipDefCarto": "693a30da.66e758",
+    "idEquipDefEventList": "1d4a533f.528585"
+  },
+  {
+    "id": "9b2eed46.a59858",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 04 TankArea_SkimMilk emptying to UF MPC QP601 thermizer",
+    "name1": "Strauss 04 TankArea_SkimMilk emptying to UF MPC QP601 thermizer",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "9c267e2.9c2e18",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 06 TankArea Mixing UF filling from UF thermizer MPC QF601",
+    "name1": "Strauss 06 TankArea Mixing UF filling from UF thermizer MPC QF601",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "666b94b.8ee536c",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 03 TankArea_Cream empying to UF injection point of QP631",
+    "name1": "Strauss 03 TankArea_Cream empying to UF injection point of QP631",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "e8aa43e2.1926c",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 06 TankArea Mixing UF filling from UF mixing loop",
+    "name1": "Strauss 06 TankArea Mixing UF filling from UF mixing loop",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "29b64bf2.298d04",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 06 TankArea Mixing UF emptying to UF mixing loop",
+    "name1": "Strauss 06 TankArea Mixing UF emptying to UF mixing loop",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "a08eed50.f06048",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 06 TankArea Mixing UF emptying to UF pasto QP631",
+    "name1": "Strauss 06 TankArea Mixing UF emptying to UF pasto QP631",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "9e8cbdaa.ddc3a",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 07 TankArea UF fermentation tank filling from UF pasto QP631",
+    "name1": "Strauss 07 TankArea UF fermentation tank filling from UF pasto QP631",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "73542d3a.b3f34c",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 07 TankArea UF fermentation tank emptying to UF cooler",
+    "name1": "Strauss 07 TankArea UF fermentation tank emptying to UF cooler",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "12079ce2.f454eb",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 08 TankArea UF storage tank filling from UF cooler",
+    "name1": "Strauss 08 TankArea UF storage tank filling from UF cooler",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "2786162b.4237fa",
+    "type": "EquipDef",
+    "z": "",
+    "name": "Equipment Filler Ampack Default",
+    "name1": "Equipment Filler Ampack Default",
+    "idEquipDefDigital": "b145a137.94a1b",
+    "idEquipDefAnalog": "5779aa52.f30a9c",
+    "idEquipDefGAlarms": "38c47433.54c3c4",
+    "idEquipDefCarto": "45e9aca.8924754",
+    "idEquipDefEventList": "b3d8cffb.a3ac98"
+  },
+  {
+    "id": "b3d8cffb.a3ac98",
+    "type": "EquipDefEventList",
+    "z": "",
+    "name": "Equipment Filler Ampack Default Event",
+    "name1": "Equipment Filler Ampack Default Event",
+    "EquipDefEventM": "",
+    "Fifo_Def": "",
+    "options": []
+  },
+  {
+    "id": "b145a137.94a1b",
+    "type": "EquipDefDigital",
+    "z": "",
+    "name": "Equipment Filler Ampack Default Digital",
+    "name1": "Equipment Filler Ampack Default Digital",
+    "options": []
+  },
+  {
+    "id": "5779aa52.f30a9c",
+    "type": "EquipDefAnalog",
+    "z": "",
+    "name": "Equipment Filler Ampack Default Analog",
+    "name1": "Equipment Filler Ampack Default Analog",
+    "options": []
+  },
+  {
+    "id": "38c47433.54c3c4",
+    "type": "EquipDefGAlarms",
+    "z": "",
+    "name": "Equipment Filler Ampack Default GAlarm",
+    "name1": "Equipment Filler Ampack Default GAlarm",
+    "options": []
+  },
+  {
+    "id": "45e9aca.8924754",
+    "type": "EquipDefCarto",
+    "z": "",
+    "name": "Equipment Filler Ampack Default Cartography",
+    "name1": "Equipment Filler Ampack Default Cartography",
+    "options": []
+  },
+  {
+    "id": "6cfaed4a.a79114",
+    "type": "EquipDef",
+    "z": "",
+    "name": "Equipment Filler Erka Default",
+    "name1": "Equipment Filler Erka Default",
+    "idEquipDefDigital": "83470b44.81bca8",
+    "idEquipDefAnalog": "d1b81032.91c34",
+    "idEquipDefGAlarms": "407e7ff1.5c8ee",
+    "idEquipDefCarto": "e724f1f6.92af1",
+    "idEquipDefEventList": "5b884ed1.b0cde8"
+  },
+  {
+    "id": "5b884ed1.b0cde8",
+    "type": "EquipDefEventList",
+    "z": "",
+    "name": "Equipment Filler Erka Default Event",
+    "name1": "Equipment Filler Erka Default Event",
+    "EquipDefEventM": "",
+    "Fifo_Def": "",
+    "options": []
+  },
+  {
+    "id": "83470b44.81bca8",
+    "type": "EquipDefDigital",
+    "z": "",
+    "name": "Equipment Filler Erka Default Digital",
+    "name1": "Equipment Filler Erka Default Digital",
+    "options": []
+  },
+  {
+    "id": "d1b81032.91c34",
+    "type": "EquipDefAnalog",
+    "z": "",
+    "name": "Equipment Filler Erka Default Analog",
+    "name1": "Equipment Filler Erka Default Analog",
+    "options": []
+  },
+  {
+    "id": "407e7ff1.5c8ee",
+    "type": "EquipDefGAlarms",
+    "z": "",
+    "name": "Equipment Filler Erka Default Galarm",
+    "name1": "Equipment Filler Erka Default Galarm",
+    "options": []
+  },
+  {
+    "id": "e724f1f6.92af1",
+    "type": "EquipDefCarto",
+    "z": "",
+    "name": "Equipment Filler Erka Default Cartography",
+    "name1": "Equipment Filler Erka Default Cartography",
+    "options": []
+  },
+  {
+    "id": "5a1273c8.a942a4",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 08 TankArea UF storage tank emptying to Arcil 3",
+    "name1": "Strauss 08 TankArea UF storage tank emptying to Arcil 3",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "e38e2c8f.b38088",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 08 TankArea UF storage tank emptying to Arcil 4",
+    "name1": "Strauss 08 TankArea UF storage tank emptying to Arcil 4",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "f7edbf69.3da208",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 08 TankArea UF storage tank emptying to Ampack 3",
+    "name1": "Strauss 08 TankArea UF storage tank emptying to Ampack 3",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "903eba56.dff908",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 08 TankArea UF storage tank emptying to Erka",
+    "name1": "Strauss 08 TankArea UF storage tank emptying to Erka",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "aff7533a.868128",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 04 TankArea_SkimMilk emptying to Ski for Ski Cream",
+    "name1": "Strauss 04 TankArea_SkimMilk emptying to Ski for Ski Cream",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "f5a7a8f5.c1757",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 09 TankArea Skim milk for Ski cream filling from Skim Storage Tank",
+    "name1": "Strauss 09 TankArea Skim milk for Ski cream filling from Skim Storage Tank",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "cac184bb.46982",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 09 TankArea Skim milk for Ski cream emptying to Ski pasto QP401",
+    "name1": "Strauss 09 TankArea Skim milk for Ski cream emptying to Ski pasto QP401",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "878b92ba.c73bb8",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 03 TankArea_Cream emptying to Ski Cream Pasto QP401",
+    "name1": "Strauss 03 TankArea_Cream emptying to Ski Cream Pasto QP401",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "5425f3e6.6626bc",
+    "type": "TankAreaDefFilling",
+    "z": "",
+    "name": "Strauss 10 TankArea Ski cream Storage tank filling from Ski Cream pasto QP401",
+    "name1": "Strauss 10 TankArea Ski cream Storage tank filling from Ski Cream pasto QP401",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "2d1e5d9.4760722",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 10 TankArea Ski cream Storage tank emptying to filler Arcil 3",
+    "name1": "Strauss 10 TankArea Ski cream Storage tank emptying to filler Arcil 3",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "2e138dea.6e1012",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 10 TankArea Ski cream Storage tank emptying to filler Arcil 4",
+    "name1": "Strauss 10 TankArea Ski cream Storage tank emptying to filler Arcil 4",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "e076bc31.269c8",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 10 TankArea Ski cream Storage tank emptying to filler Ampack 3",
+    "name1": "Strauss 10 TankArea Ski cream Storage tank emptying to filler Ampack 3",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "f4a96bfa.db272",
+    "type": "TankAreaDefEmptying",
+    "z": "",
+    "name": "Strauss 10 TankArea Ski cream Storage tank emptying to filler Erka",
+    "name1": "Strauss 10 TankArea Ski cream Storage tank emptying to filler Erka",
+    "dataComment": "",
+    "options": []
+  },
+  {
+    "id": "911d0a5d.614c68",
+    "type": "Factory",
+    "z": "525eb504.32348c",
+    "name": "Strauss Yogurt Factory",
+    "name1": "Strauss Yogurt Factory",
+    "address": "Accos",
+    "langue": "en",
+    "currency": "Shekel",
+    "currencyEuro": "4.01",
+    "menuCartography": true,
+    "menuOptimisation": true,
+    "menuTraceability": true,
+    "outputs": 1,
+    "x": 140,
+    "y": 220,
+    "wires": [
+      [
+        "e9602817.5aa12"
+      ]
+    ]
+  },
+  {
+    "id": "22dcff12.683e08",
+    "type": "Area",
+    "z": "525eb504.32348c",
+    "name": "Strauss Area Reception",
+    "name1": "Reception",
+    "comment": "Reception",
+    "menu": "Reception",
+    "idFactory": "911d0a5d.614c68",
+    "outputs": 3,
+    "x": 710,
+    "y": 180,
+    "wires": [
+      [
+        "66a62802.16f18"
+      ],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "a6205840.389998",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 02 TankArea RawMilk",
+    "name1": "RawMilk TankArea",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "b726b7bf.35acd8",
+    "TankAreaDefEmptying": "ea0f1957.39d5e8",
+    "options": {
+      "Filling": [
+        {
+          "label": "7a5d42d.1515f3c"
+        },
+        {
+          "label": "b726b7bf.35acd8"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "e9247e74.c47d9"
+        },
+        {
+          "label": "_ADD_"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 1850,
+    "y": 160,
+    "wires": [
+      [
+        "ca0d45ef.270a68",
+        "c430ed49.46ec78",
+        "6f5762a6.6e80c4",
+        "715c2a33.4f34f4",
+        "e69e4c85.a46318"
+      ]
+    ]
+  },
+  {
+    "id": "ca0d45ef.270a68",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss RawMilk MT001",
+    "name1": "MT001",
+    "idTankArea": "a6205840.389998",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1920,
+    "y": 240,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "c430ed49.46ec78",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss RawMilk MT002",
+    "name1": "MT002",
+    "idTankArea": "a6205840.389998",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1920,
+    "y": 280,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "bb8169df.e3e658",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 04 TankArea_SkimMilk",
+    "name1": "TankArea_SkimMilk",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "61e7e04.19ad42",
+    "TankAreaDefEmptying": "aff7533a.868128",
+    "options": {
+      "Filling": [
+        {
+          "label": "7209ba59.f501dc"
+        },
+        {
+          "label": "61e7e04.19ad42"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "4e5a7f26.bb1ec"
+        },
+        {
+          "label": "dfd00f99.ea77a"
+        },
+        {
+          "label": "1b6c161b.8eecca"
+        },
+        {
+          "label": "83d374.e0e9149"
+        },
+        {
+          "label": "9b2eed46.a59858"
+        },
+        {
+          "label": "aff7533a.868128"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 3650,
+    "y": 460,
+    "wires": [
+      [
+        "9e9a57aa.3212f8",
+        "12210a9d.5eea15",
+        "f29adc28.4f86",
+        "3c8761a8.7faf1e",
+        "45fb7aaa.3bb224",
+        "215e0e8f.c52f82",
+        "f4263721.09916",
+        "e0984b1f.6071a",
+        "d95222d4.b8ecb",
+        "b44dc493.3659d8"
+      ]
+    ]
+  },
+  {
+    "id": "9e9a57aa.3212f8",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss SkimMilk MT101",
+    "name1": "MT101",
+    "idTankArea": "bb8169df.e3e658",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3710,
+    "y": 540,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "12210a9d.5eea15",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss SkimMilk MT102",
+    "name1": "MT102",
+    "idTankArea": "bb8169df.e3e658",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3710,
+    "y": 580,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "6f5762a6.6e80c4",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss RawMilk MT003",
+    "name1": "RawMilk tank MT003",
+    "idTankArea": "a6205840.389998",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1920,
+    "y": 320,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "f29adc28.4f86",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss SkimMilk MT103",
+    "name1": "MT103",
+    "idTankArea": "bb8169df.e3e658",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3710,
+    "y": 620,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "3c8761a8.7faf1e",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss SkimMilk MT104",
+    "name1": "MT104",
+    "idTankArea": "bb8169df.e3e658",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3710,
+    "y": 660,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "66a62802.16f18",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 01 Road Truck",
+    "name1": "Road Truck",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "",
+    "TankAreaDefEmptying": "376579da.a3b956",
+    "options": {
+      "Filling": [],
+      "Emptying": [
+        {
+          "label": "82700ff5.0c738"
+        },
+        {
+          "label": "376579da.a3b956"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 1140,
+    "y": 160,
+    "wires": [
+      [
+        "b36b06be.75d61",
+        "cbbc3536.158ed8",
+        "49ed494c.dfc278",
+        "dfa2be58.441648"
+      ]
+    ]
+  },
+  {
+    "id": "b36b06be.75d61",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss RoadTruck1",
+    "name1": "RoadTruck1",
+    "idTankArea": "66a62802.16f18",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1200,
+    "y": 240,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "cbbc3536.158ed8",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss RoadTruck2",
+    "name1": " RoadTruck2",
+    "idTankArea": "66a62802.16f18",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1200,
+    "y": 280,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "e9602817.5aa12",
+    "type": "Areas",
+    "z": "525eb504.32348c",
+    "name": "Strauss Areas",
+    "name1": "Strauss Areas",
+    "outputs": 11,
+    "x": 380,
+    "y": 240,
+    "wires": [
+      [
+        "22dcff12.683e08"
+      ],
+      [
+        "c6638e81.c4ba08"
+      ],
+      [
+        "948e98e8.aa00f"
+      ],
+      [
+        "1cf294b2.5a03c3"
+      ],
+      [
+        "c13986b.e18b278"
+      ],
+      [
+        "8df0cf11.234ce8"
+      ],
+      [
+        "23f97b33.fddb7c"
+      ],
+      [
+        "cc8ba90b.9d7ec8"
+      ],
+      [
+        "25300a1f.93a416"
+      ],
+      [
+        "475474c1.e1b654"
+      ],
+      [
+        "e883af72.173318"
+      ]
+    ]
+  },
+  {
+    "id": "c6638e81.c4ba08",
+    "type": "Area",
+    "z": "525eb504.32348c",
+    "name": "Strauss Area Yogurt",
+    "name1": "Yogurt",
+    "comment": "Yogurt",
+    "menu": "Yogurt",
+    "idFactory": "911d0a5d.614c68",
+    "outputs": 3,
+    "x": 590,
+    "y": 1020,
+    "wires": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "948e98e8.aa00f",
+    "type": "Area",
+    "z": "525eb504.32348c",
+    "name": "Strauss Area Simfonia",
+    "name1": "Simfonia",
+    "comment": "Simfonia",
+    "menu": "Simfonia",
+    "idFactory": "911d0a5d.614c68",
+    "outputs": 3,
+    "x": 190,
+    "y": 1380,
+    "wires": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "1cf294b2.5a03c3",
+    "type": "Area",
+    "z": "525eb504.32348c",
+    "name": "Strauss Area Cottage",
+    "name1": "Cottage",
+    "comment": "Cottage",
+    "menu": "Cottage",
+    "idFactory": "911d0a5d.614c68",
+    "outputs": 3,
+    "x": 580,
+    "y": 1720,
+    "wires": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "c13986b.e18b278",
+    "type": "Area",
+    "z": "525eb504.32348c",
+    "name": "Strauss Area Uf",
+    "name1": "Uf",
+    "comment": "Uf",
+    "menu": "Uf",
+    "idFactory": "911d0a5d.614c68",
+    "outputs": 3,
+    "x": 210,
+    "y": 2900,
+    "wires": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "e883af72.173318",
+    "type": "Area",
+    "z": "525eb504.32348c",
+    "name": "Strauss Area Filler",
+    "name1": "Filler",
+    "comment": "Filler",
+    "menu": "Filler",
+    "idFactory": "911d0a5d.614c68",
+    "outputs": 3,
+    "x": 210,
+    "y": 3600,
+    "wires": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "8df0cf11.234ce8",
+    "type": "Area",
+    "z": "525eb504.32348c",
+    "name": "Strauss Area Ski",
+    "name1": "Ski",
+    "comment": "Ski",
+    "menu": "Ski",
+    "idFactory": "911d0a5d.614c68",
+    "outputs": 3,
+    "x": 200,
+    "y": 3280,
+    "wires": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "23f97b33.fddb7c",
+    "type": "Area",
+    "z": "525eb504.32348c",
+    "name": "Strauss Area Gaban",
+    "name1": "Gaban",
+    "comment": "Gaban",
+    "menu": "Gaban",
+    "idFactory": "911d0a5d.614c68",
+    "outputs": 3,
+    "x": 220,
+    "y": 3360,
+    "wires": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "cc8ba90b.9d7ec8",
+    "type": "Area",
+    "z": "525eb504.32348c",
+    "name": "Strauss Area Pudding",
+    "name1": "Pudding",
+    "comment": "Pudding",
+    "menu": "Pudding",
+    "idFactory": "911d0a5d.614c68",
+    "outputs": 3,
+    "x": 220,
+    "y": 3440,
+    "wires": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "25300a1f.93a416",
+    "type": "Area",
+    "z": "525eb504.32348c",
+    "name": "Strauss Area Mixing",
+    "name1": "Mixing",
+    "comment": "Mixing",
+    "menu": "Mixing",
+    "idFactory": "911d0a5d.614c68",
+    "outputs": 3,
+    "x": 220,
+    "y": 3520,
+    "wires": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "475474c1.e1b654",
+    "type": "Area",
+    "z": "525eb504.32348c",
+    "name": "Strauss Area Actimel",
+    "name1": "Actimel",
+    "comment": "Actimel",
+    "menu": "Actimel",
+    "idFactory": "911d0a5d.614c68",
+    "outputs": 3,
+    "x": 560,
+    "y": 2300,
+    "wires": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "e1dd2a93.9a5878",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 03 TankArea_Cream",
+    "name1": "TankArea_Cream",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "93c03867.13b578",
+    "TankAreaDefEmptying": "878b92ba.c73bb8",
+    "options": {
+      "Filling": [
+        {
+          "label": "a94ec732.1682c8"
+        },
+        {
+          "label": "93c03867.13b578"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "de77dd2.d4085a"
+        },
+        {
+          "label": "9c674e59.f20ae8"
+        },
+        {
+          "label": "666b94b.8ee536c"
+        },
+        {
+          "label": "878b92ba.c73bb8"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 3650,
+    "y": 160,
+    "wires": [
+      [
+        "d737402b.a7013",
+        "cc7574a6.7d8f1",
+        "30a615de.9d99da",
+        "14458418.52a85c",
+        "4a74beca.b08f",
+        "b473d731.92e28",
+        "75e96cfa.643484",
+        "7477930c.f5027c"
+      ]
+    ]
+  },
+  {
+    "id": "d737402b.a7013",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cream MT111",
+    "name1": "MT111",
+    "idTankArea": "e1dd2a93.9a5878",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3680,
+    "y": 240,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "cc7574a6.7d8f1",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cream MT112",
+    "name1": "MT112",
+    "idTankArea": "e1dd2a93.9a5878",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3690,
+    "y": 280,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "30a615de.9d99da",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cream MT113",
+    "name1": "MT113",
+    "idTankArea": "e1dd2a93.9a5878",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3690,
+    "y": 320,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "14458418.52a85c",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cream MT114",
+    "name1": "MT114",
+    "idTankArea": "e1dd2a93.9a5878",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3690,
+    "y": 360,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "d0a0832e.46f5b8",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 05 TankArea Mixing Yogurt",
+    "name1": "Mixing Yogurt TankArea",
+    "idArea": "c6638e81.c4ba08",
+    "TankAreaDefFilling": "530018ce.934e88",
+    "TankAreaDefEmptying": "215518bb.70c758",
+    "options": {
+      "Filling": [
+        {
+          "label": "af97cfbd.705988"
+        },
+        {
+          "label": "89aa94aa.b29f"
+        },
+        {
+          "label": "db6348be.2fc3e"
+        },
+        {
+          "label": "530018ce.934e88"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "ba42ad95.95eb4"
+        },
+        {
+          "label": "855f0b8a.926ec"
+        },
+        {
+          "label": "215518bb.70c758"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 1300,
+    "y": 1020,
+    "wires": [
+      [
+        "c8e8d71b.3908d",
+        "e7cff3d9.ac50a",
+        "1441686c.38dc28",
+        "ce821859.408c68",
+        "46606bff.4221cc"
+      ]
+    ]
+  },
+  {
+    "id": "c8e8d71b.3908d",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss mixing Yogurt YT001",
+    "name1": "YT001",
+    "idTankArea": "d0a0832e.46f5b8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1370,
+    "y": 1080,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "e7cff3d9.ac50a",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss mixing Yogurt YT002",
+    "name1": "YT002",
+    "idTankArea": "d0a0832e.46f5b8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1370,
+    "y": 1120,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "49ed494c.dfc278",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Line1 truck emptying",
+    "name1": "Line1 truck emptying",
+    "idPlc": "",
+    "idEquipDef": "5b472019.6d2ea",
+    "menu": "Line1 truck emptying",
+    "TankAreaDefFilling": "",
+    "TankAreaDefEmptying": "",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "82700ff5.0c738"
+        }
+      ],
+      "EmptyingToTank": [],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 1500,
+    "y": 160,
+    "wires": [
+      [
+        "a6205840.389998"
+      ]
+    ]
+  },
+  {
+    "id": "dfa2be58.441648",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Line 2 truck emptying",
+    "name1": "Line2 truck emptying",
+    "idPlc": "",
+    "idEquipDef": "5b472019.6d2ea",
+    "menu": "Line2 truck emptying",
+    "TankAreaDefFilling": "",
+    "TankAreaDefEmptying": "",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "376579da.a3b956"
+        }
+      ],
+      "EmptyingToTank": [],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 1510,
+    "y": 220,
+    "wires": [
+      [
+        "a6205840.389998"
+      ]
+    ]
+  },
+  {
+    "id": "715c2a33.4f34f4",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Prepasto MP011",
+    "name1": "Prepasto MP011",
+    "idPlc": "",
+    "idEquipDef": "b50affbd.aa9118",
+    "menu": "Prepasto MP011",
+    "TankAreaDefFilling": "",
+    "TankAreaDefEmptying": "",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "e9247e74.c47d9"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "ae192086.c697e8"
+        },
+        {
+          "label": "7209ba59.f501dc"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 2230,
+    "y": 160,
+    "wires": [
+      [
+        "bb8169df.e3e658",
+        "7fcb4557.e3ae5c"
+      ]
+    ]
+  },
+  {
+    "id": "e69e4c85.a46318",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Prepasto MP021",
+    "name1": "Prepasto MP021",
+    "idPlc": "",
+    "idEquipDef": "b50affbd.aa9118",
+    "menu": "Prepasto MP021",
+    "TankAreaDefFilling": "",
+    "TankAreaDefEmptying": "",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "ea0f1957.39d5e8"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "e70286a9.78d29"
+        },
+        {
+          "label": "61e7e04.19ad42"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 2230,
+    "y": 220,
+    "wires": [
+      [
+        "bb8169df.e3e658",
+        "4b18f62b.a3a89"
+      ]
+    ]
+  },
+  {
+    "id": "4a74beca.b08f",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Yogurt Area Dosing Cream",
+    "name1": "Strauss Yogurt Area Dosing Cream",
+    "idPlc": "",
+    "idEquipDef": "d8b56568.564a5",
+    "menu": "Yogurt Area Dosing Cream",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "de77dd2.d4085a"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "af97cfbd.705988"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 910,
+    "y": 1020,
+    "wires": [
+      [
+        "d0a0832e.46f5b8"
+      ]
+    ]
+  },
+  {
+    "id": "45fb7aaa.3bb224",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Yogurt Area Dosing Skim Milk",
+    "name1": "Strauss Yogurt Area Dosing Skim Milk",
+    "idPlc": "",
+    "idEquipDef": "d8b56568.564a5",
+    "menu": "Yogurt Area Dosing Skim Milk",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "4e5a7f26.bb1ec"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "89aa94aa.b29f"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 920,
+    "y": 1100,
+    "wires": [
+      [
+        "d0a0832e.46f5b8"
+      ]
+    ]
+  },
+  {
+    "id": "1441686c.38dc28",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Yogurt Mixing Looping",
+    "name1": "Strauss Yogurt Mixing Looping",
+    "idPlc": "",
+    "idEquipDef": "a7aac15e.64554",
+    "menu": "Yogurt Mixing Looping",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "ba42ad95.95eb4"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "db6348be.2fc3e"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 1750,
+    "y": 900,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "9601db42.a167d8",
+    "type": "TankArea",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss 29 TankArea pudding mixing tank",
+    "name1": "pudding mixing tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "",
+    "TankAreaDefEmptying": "",
+    "options": {
+      "Filling": [],
+      "Emptying": []
+    },
+    "outputs": 1,
+    "x": 310,
+    "y": 560,
+    "wires": [
+      [
+        "7b5f59bd.14c378",
+        "3b0a0c3a.d9af94",
+        "e27ea378.45b568",
+        "c9997043.ce7ca"
+      ]
+    ]
+  },
+  {
+    "id": "7b5f59bd.14c378",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss pudding mixing tank DT001",
+    "name1": "DT001",
+    "idTankArea": "754c0b5e.8a1884",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 320,
+    "y": 620,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "3b0a0c3a.d9af94",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss pudding mixing tank DT002",
+    "name1": "DT002",
+    "idTankArea": "754c0b5e.8a1884",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 320,
+    "y": 660,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "e27ea378.45b568",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss pudding mixing tank DT003",
+    "name1": "DT003",
+    "idTankArea": "754c0b5e.8a1884",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 320,
+    "y": 700,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "c9997043.ce7ca",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss pudding mixing tank DT004",
+    "name1": "DT004",
+    "idTankArea": "754c0b5e.8a1884",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 320,
+    "y": 740,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "9c26c633.8986f",
+    "type": "TankArea",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss 30 TankArea pudding storage tank",
+    "name1": "pudding storage tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "",
+    "TankAreaDefEmptying": "",
+    "options": {
+      "Filling": [],
+      "Emptying": []
+    },
+    "outputs": 1,
+    "x": 310,
+    "y": 820,
+    "wires": [
+      [
+        "f7bd7e99.e57138",
+        "4e9d17e0.4fee58",
+        "896091df.1b8918",
+        "94de8acb.9fa01",
+        "6cce4fc4.68626",
+        "30a551ce.7f495e",
+        "219ffa0a.cf13ae",
+        "54ef9cef.12d024",
+        "37b01fd1.b2fbb8",
+        "5b15edb8.12459c"
+      ]
+    ]
+  },
+  {
+    "id": "f7bd7e99.e57138",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss pudding storage tank DT201",
+    "name1": "DT201",
+    "idTankArea": "9a146e8.6acae1",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 370,
+    "y": 880,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "4e9d17e0.4fee58",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss pudding storage tank DT202",
+    "name1": "DT202",
+    "idTankArea": "9a146e8.6acae1",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 370,
+    "y": 920,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "896091df.1b8918",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss pudding storage tank DT203",
+    "name1": "DT203",
+    "idTankArea": "9a146e8.6acae1",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 370,
+    "y": 960,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "94de8acb.9fa01",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss pudding storage tank DT204",
+    "name1": "DT204",
+    "idTankArea": "9a146e8.6acae1",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 370,
+    "y": 1000,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "6cce4fc4.68626",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss pudding storage tank DT205",
+    "name1": "DT205",
+    "idTankArea": "9a146e8.6acae1",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 370,
+    "y": 1040,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "30a551ce.7f495e",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss pudding storage tank DT206",
+    "name1": "DT206",
+    "idTankArea": "9a146e8.6acae1",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 370,
+    "y": 1080,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "219ffa0a.cf13ae",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss pudding storage tank DT211",
+    "name1": "DT211",
+    "idTankArea": "9a146e8.6acae1",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 370,
+    "y": 1120,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "54ef9cef.12d024",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss pudding storage tank DT212",
+    "name1": "DT212",
+    "idTankArea": "9a146e8.6acae1",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 370,
+    "y": 1160,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "37b01fd1.b2fbb8",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss pudding storage tank DT214",
+    "name1": "DT214",
+    "idTankArea": "9a146e8.6acae1",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 370,
+    "y": 1200,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "5b15edb8.12459c",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss pudding storage tank DT215",
+    "name1": "DT215",
+    "idTankArea": "9a146e8.6acae1",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 370,
+    "y": 1240,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "8df8a385.e6e26",
+    "type": "TankArea",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss 38 TankArea pudding raw whip cream storage tank",
+    "name1": "pudding raw whip cream storage tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "",
+    "TankAreaDefEmptying": "",
+    "options": {
+      "Filling": [],
+      "Emptying": []
+    },
+    "outputs": 1,
+    "x": 900,
+    "y": 820,
+    "wires": [
+      [
+        "4ed6a8b6.862a4"
+      ]
+    ]
+  },
+  {
+    "id": "4ed6a8b6.862a4",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss pudding raw whip cream storage tank DT102",
+    "name1": "DT102",
+    "idTankArea": "4a4a2590.9e33bc",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 960,
+    "y": 880,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "5e014df0.1b485c",
+    "type": "TankArea",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss 39 TankArea Pudding stabilisator tank",
+    "name1": "Pudding stabilisator tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "",
+    "TankAreaDefEmptying": "",
+    "options": {
+      "Filling": [],
+      "Emptying": []
+    },
+    "outputs": 1,
+    "x": 1400,
+    "y": 820,
+    "wires": [
+      [
+        "f291401f.650048"
+      ]
+    ]
+  },
+  {
+    "id": "f291401f.650048",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Pudding stabilisator tank DT103",
+    "name1": "DT103",
+    "idTankArea": "13a73b88.ea2d7c",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1440,
+    "y": 880,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "ba21f42f.90421",
+    "type": "TankArea",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss 40 TankArea raw whip cream balance tank",
+    "name1": "Pudding stabilisator tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "",
+    "TankAreaDefEmptying": "",
+    "options": {
+      "Filling": [],
+      "Emptying": []
+    },
+    "outputs": 1,
+    "x": 1850,
+    "y": 820,
+    "wires": [
+      [
+        "b571c5e6.40581"
+      ]
+    ]
+  },
+  {
+    "id": "b571c5e6.40581",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Pudding raw whip cream balance tank DT104",
+    "name1": "DT104",
+    "idTankArea": "87d62be7.81c1e8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1900,
+    "y": 880,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "af1a2443.a9bc78",
+    "type": "TankArea",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss 41 TankArea Pudding sterilised whip cream storage tank",
+    "name1": "Pudding sterilised whip cream storage tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "",
+    "TankAreaDefEmptying": "",
+    "options": {
+      "Filling": [],
+      "Emptying": []
+    },
+    "outputs": 1,
+    "x": 320,
+    "y": 1340,
+    "wires": [
+      [
+        "5d579622.95c8a",
+        "ca69f216.6d4138",
+        "7ea9a37f.2860a4"
+      ]
+    ]
+  },
+  {
+    "id": "5d579622.95c8a",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Pudding sterilised whip cream storage tank DT301",
+    "name1": "DT301",
+    "idTankArea": "79604339.c4b1dc",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 390,
+    "y": 1400,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "ca69f216.6d4138",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Pudding sterilised whip cream storage tank DT302",
+    "name1": "DT302",
+    "idTankArea": "79604339.c4b1dc",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 390,
+    "y": 1440,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "7ea9a37f.2860a4",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Pudding sterilised whip cream storage tank DT304",
+    "name1": "DT304",
+    "idTankArea": "79604339.c4b1dc",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 390,
+    "y": 1480,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "a6ea24df.0bc098",
+    "type": "TankArea",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss 43 TankArea Skim milk pasteurized for Gaban tank",
+    "name1": "Skim milk pasteurized for Gaban tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "",
+    "TankAreaDefEmptying": "",
+    "options": {
+      "Filling": [],
+      "Emptying": []
+    },
+    "outputs": 1,
+    "x": 890,
+    "y": 1340,
+    "wires": [
+      [
+        "e9a003d0.b427b8",
+        "b281114b.359f6",
+        "a22af695.9ca3c8",
+        "882bebfc.cd0588",
+        "2b0713bc.a6cf04"
+      ]
+    ]
+  },
+  {
+    "id": "e9a003d0.b427b8",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Skim milk pasteurized for Gaban tank QT203",
+    "name1": "QT203",
+    "idTankArea": "67e6e822.73b2a8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 930,
+    "y": 1400,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "b281114b.359f6",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Skim milk pasteurized for Gaban tank QT204",
+    "name1": "QT204",
+    "idTankArea": "67e6e822.73b2a8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 930,
+    "y": 1440,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "a22af695.9ca3c8",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Skim milk pasteurized for Gaban tank QT205",
+    "name1": "QT205",
+    "idTankArea": "67e6e822.73b2a8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 930,
+    "y": 1480,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "882bebfc.cd0588",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Skim milk pasteurized for Gaban tank QT641",
+    "name1": "QT641",
+    "idTankArea": "67e6e822.73b2a8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 930,
+    "y": 1520,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "2b0713bc.a6cf04",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Skim milk pasteurized for Gaban tank QT642",
+    "name1": "QT642",
+    "idTankArea": "67e6e822.73b2a8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 930,
+    "y": 1560,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "91e800b0.05f0d",
+    "type": "TankArea",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss 44 TankArea Gaban buffer tank",
+    "name1": "Gaban buffer tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "",
+    "TankAreaDefEmptying": "",
+    "options": {
+      "Filling": [],
+      "Emptying": []
+    },
+    "outputs": 1,
+    "x": 1390,
+    "y": 1340,
+    "wires": [
+      [
+        "2b53640b.39467c"
+      ]
+    ]
+  },
+  {
+    "id": "2b53640b.39467c",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Gaban buffer tank QT233",
+    "name1": "QT233",
+    "idTankArea": "5e41e5c3.9c2c74",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1410,
+    "y": 1400,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "324b3ee3.a82e82",
+    "type": "TankArea",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss 45 TankArea Quark storage tank",
+    "name1": "Quark storage tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "",
+    "TankAreaDefEmptying": "",
+    "options": {
+      "Filling": [],
+      "Emptying": []
+    },
+    "outputs": 1,
+    "x": 1770,
+    "y": 1340,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "6a522b6.87d9854",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Quark storage tank QT321",
+    "name1": "QT321",
+    "idTankArea": "fcf151c5.163b6",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1790,
+    "y": 1400,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "66a480fc.7b1ff",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Quark storage tank QT322",
+    "name1": "QT322",
+    "idTankArea": "fcf151c5.163b6",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1790,
+    "y": 1440,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "4c6a42e9.9c69fc",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Quark storage tank QT323",
+    "name1": "QT323",
+    "idTankArea": "fcf151c5.163b6",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1790,
+    "y": 1480,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "68a3c913.d876f",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Quark storage tank QT324",
+    "name1": "QT324",
+    "idTankArea": "fcf151c5.163b6",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1790,
+    "y": 1520,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "7764e48d.e55e74",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Quark storage tank QT331",
+    "name1": "QT331",
+    "idTankArea": "fcf151c5.163b6",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1790,
+    "y": 1560,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "9844da02.7d6458",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Quark storage tank QT332",
+    "name1": "QT332",
+    "idTankArea": "fcf151c5.163b6",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1790,
+    "y": 1600,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "6ac0d5aa.c492f4",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Quark storage tank QT333",
+    "name1": "QT333",
+    "idTankArea": "fcf151c5.163b6",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1790,
+    "y": 1640,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "dcdc80b6.df534",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Quark storage tank QT701",
+    "name1": "QT701",
+    "idTankArea": "fcf151c5.163b6",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1790,
+    "y": 1680,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "bc52590.4ab4c28",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Quark storage tank QT702",
+    "name1": "QT702",
+    "idTankArea": "fcf151c5.163b6",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1790,
+    "y": 1720,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "ec73a8aa.551ff8",
+    "type": "TankArea",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss 46 TankArea Whey tank from Quark and cottage",
+    "name1": "Whey tank from Quark and cottage",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "",
+    "TankAreaDefEmptying": "",
+    "options": {
+      "Filling": [],
+      "Emptying": []
+    },
+    "outputs": 1,
+    "x": 300,
+    "y": 1760,
+    "wires": [
+      [
+        "27f13a9f.34de7e"
+      ]
+    ]
+  },
+  {
+    "id": "27f13a9f.34de7e",
+    "type": "Tank",
+    "z": "4eb1d355.b49e04",
+    "name": "Strauss Whey tank from Quark and cottage QT241",
+    "name1": "QT241",
+    "idTankArea": "c91ad56e.a1ee28",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 340,
+    "y": 1820,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "ce821859.408c68",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Yogurt cooling Loop",
+    "name1": "Strauss Yogurt cooling Loop",
+    "idPlc": "",
+    "idEquipDef": "cd33987.20c1ce8",
+    "menu": "Yogurt cooling Loop",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "855f0b8a.926ec"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "530018ce.934e88"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 1740,
+    "y": 960,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "46606bff.4221cc",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Yogurt Pasto YP001",
+    "name1": "Yogurt Pasto YP001",
+    "idPlc": "",
+    "idEquipDef": "b1076362.d550d8",
+    "menu": "Yogurt Pasto YP001",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "215518bb.70c758"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "bf20b0b2.555228"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 1740,
+    "y": 1060,
+    "wires": [
+      [
+        "d90f867e.002608"
+      ]
+    ]
+  },
+  {
+    "id": "d90f867e.002608",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 21 TankArea yogurt fermentation tank",
+    "name1": "yogurt fermentation tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "bf20b0b2.555228",
+    "TankAreaDefEmptying": "e92f7644.8971c8",
+    "options": {
+      "Filling": [
+        {
+          "label": "bf20b0b2.555228"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "7a08efa2.98192"
+        },
+        {
+          "label": "9376d227.8f02f"
+        },
+        {
+          "label": "e92f7644.8971c8"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 2180,
+    "y": 1020,
+    "wires": [
+      [
+        "39befb90.53998c",
+        "9f5af252.85f608",
+        "9e911c10.a6c638",
+        "18452c54.f151e4",
+        "7fb8917f.f9a348",
+        "3b82ccf3.edf0dc",
+        "7e021dfd.bb134c",
+        "c8961a7f.b42fe",
+        "4d0b61ea.86927",
+        "8076acb3.078358",
+        "ad3ff457.22319"
+      ]
+    ]
+  },
+  {
+    "id": "39befb90.53998c",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt fermentation tank YT200",
+    "name1": "YT200",
+    "idTankArea": "d90f867e.002608",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2200,
+    "y": 1080,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "9f5af252.85f608",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt fermentation tank YT201",
+    "name1": "YT201",
+    "idTankArea": "d90f867e.002608",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2200,
+    "y": 1120,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "9e911c10.a6c638",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt fermentation tank YT202",
+    "name1": "YT202",
+    "idTankArea": "d90f867e.002608",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2200,
+    "y": 1160,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "18452c54.f151e4",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt fermentation tank YT203",
+    "name1": "YT203",
+    "idTankArea": "d90f867e.002608",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2200,
+    "y": 1200,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "7fb8917f.f9a348",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt fermentation tank YT204",
+    "name1": "YT204",
+    "idTankArea": "d90f867e.002608",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2200,
+    "y": 1240,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "3b82ccf3.edf0dc",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt fermentation tank YT205",
+    "name1": "YT205",
+    "idTankArea": "d90f867e.002608",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2200,
+    "y": 1280,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "7e021dfd.bb134c",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt fermentation tank YT206",
+    "name1": "YT206",
+    "idTankArea": "d90f867e.002608",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2200,
+    "y": 1320,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "c8961a7f.b42fe",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt fermentation tank YT207",
+    "name1": "YT207",
+    "idTankArea": "d90f867e.002608",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2200,
+    "y": 1360,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "4d0b61ea.86927",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt fermentation tank YT208",
+    "name1": "YT208",
+    "idTankArea": "d90f867e.002608",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2200,
+    "y": 1400,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "df290e30.cb33d",
+    "type": "comment",
+    "z": "525eb504.32348c",
+    "name": "Peut etre vidange par QP631 voir point FR03_27",
+    "info": "",
+    "x": 2180,
+    "y": 900,
+    "wires": []
+  },
+  {
+    "id": "8076acb3.078358",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Yogurt Cooler YK202",
+    "name1": "Yogurt Cooler YK202",
+    "idPlc": "",
+    "idEquipDef": "75f5f0a4.eb6028",
+    "menu": "Yogurt Cooler YK202",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "7a08efa2.98192"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "59c77182.4ccab8"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 2600,
+    "y": 1020,
+    "wires": [
+      [
+        "7a60599a.bca7d8"
+      ]
+    ]
+  },
+  {
+    "id": "7a60599a.bca7d8",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 24 TankArea yogurt storage tank",
+    "name1": "yogurt storage tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "cca3d39e.4a4e1",
+    "TankAreaDefEmptying": "2d2ad834.ae9b58",
+    "options": {
+      "Filling": [
+        {
+          "label": "59c77182.4ccab8"
+        },
+        {
+          "label": "6f92329.89490cc"
+        },
+        {
+          "label": "cca3d39e.4a4e1"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "aa888cc8.ab349"
+        },
+        {
+          "label": "6dd18f71.cc8e7"
+        },
+        {
+          "label": "81ae494b.cd0588"
+        },
+        {
+          "label": "a52ed95c.0945a"
+        },
+        {
+          "label": "2d2ad834.ae9b58"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 3170,
+    "y": 1020,
+    "wires": [
+      [
+        "3ed98118.52eb5e",
+        "74e18fac.9e4d28",
+        "bbdabecf.40b428",
+        "ee9fb2d3.575568",
+        "a7dd50d.fb20d3",
+        "c6caad25.5ca9b",
+        "31be8000.98674",
+        "fe15e9a2.6dc2b8",
+        "db9b882c.0c28d8",
+        "ef5f3674.7c7118",
+        "3394df53.5227a",
+        "ae236f55.92e3b8",
+        "66e39c33.ce0ecc",
+        "28b453c3.0ac72c",
+        "c111fddc.41ab8",
+        "88e4d43d.6cc6a8",
+        "a12c486.a9dd238",
+        "51c7d555.452bac",
+        "feb9edda.bef6e8"
+      ]
+    ]
+  },
+  {
+    "id": "3ed98118.52eb5e",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt storage tank YT301",
+    "name1": "YT301",
+    "idTankArea": "7a60599a.bca7d8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3190,
+    "y": 1080,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "74e18fac.9e4d28",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt storage tank YT302",
+    "name1": "YT302",
+    "idTankArea": "7a60599a.bca7d8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3190,
+    "y": 1120,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "bbdabecf.40b428",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt storage tank YT303",
+    "name1": "YT303",
+    "idTankArea": "7a60599a.bca7d8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3190,
+    "y": 1160,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "ee9fb2d3.575568",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt storage tank YT304",
+    "name1": "YT304",
+    "idTankArea": "7a60599a.bca7d8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3190,
+    "y": 1200,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "a7dd50d.fb20d3",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt storage tank YT305",
+    "name1": "YT305",
+    "idTankArea": "7a60599a.bca7d8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3190,
+    "y": 1240,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "c6caad25.5ca9b",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt storage tank YT306",
+    "name1": "YT306",
+    "idTankArea": "7a60599a.bca7d8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3190,
+    "y": 1280,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "31be8000.98674",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt storage tank YT307",
+    "name1": "YT307",
+    "idTankArea": "7a60599a.bca7d8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3190,
+    "y": 1320,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "fe15e9a2.6dc2b8",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt storage tank YT308",
+    "name1": "YT308",
+    "idTankArea": "7a60599a.bca7d8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3190,
+    "y": 1360,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "db9b882c.0c28d8",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt storage tank YT309",
+    "name1": "YT309",
+    "idTankArea": "7a60599a.bca7d8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3190,
+    "y": 1400,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "ef5f3674.7c7118",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss yogurt storage tank YT310",
+    "name1": "YT309",
+    "idTankArea": "7a60599a.bca7d8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3190,
+    "y": 1440,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "ad3ff457.22319",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Yogurt Cooler YK204",
+    "name1": "Yogurt Cooler YK204",
+    "idPlc": "",
+    "idEquipDef": "75f5f0a4.eb6028",
+    "menu": "Yogurt Cooler YK204",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "9376d227.8f02f"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "6f92329.89490cc"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 2610,
+    "y": 1080,
+    "wires": [
+      [
+        "7a60599a.bca7d8"
+      ]
+    ]
+  },
+  {
+    "id": "3394df53.5227a",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss drinking yogurt storage tank YT311",
+    "name1": "YT311",
+    "idTankArea": "7a60599a.bca7d8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3210,
+    "y": 1500,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "ae236f55.92e3b8",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss drinking yogurt storage tank YT312",
+    "name1": "YT312",
+    "idTankArea": "7a60599a.bca7d8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3210,
+    "y": 1540,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "66e39c33.ce0ecc",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss drinking yogurt storage tank YT221",
+    "name1": "YT221",
+    "idTankArea": "7a60599a.bca7d8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3200,
+    "y": 1580,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "28b453c3.0ac72c",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Filler yogurt Arcil 1",
+    "name1": "Strauss Filler yogurt Arcil 1",
+    "idPlc": "",
+    "idEquipDef": "1d5fb632.ae07b2",
+    "menu": "Yogurt Arcil 1",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "aa888cc8.ab349"
+        }
+      ],
+      "EmptyingToTank": [],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 3670,
+    "y": 1020,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "c111fddc.41ab8",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Filler yogurt Arcil 2",
+    "name1": "Strauss Filler yogurt Arcil 2",
+    "idPlc": "",
+    "idEquipDef": "1d5fb632.ae07b2",
+    "menu": "Yogurt Arcil 2",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "6dd18f71.cc8e7"
+        }
+      ],
+      "EmptyingToTank": [],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 3670,
+    "y": 1080,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "88e4d43d.6cc6a8",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Filler yogurt Arcil 3",
+    "name1": "Strauss Filler yogurt Arcil 3",
+    "idPlc": "",
+    "idEquipDef": "1d5fb632.ae07b2",
+    "menu": "Yogurt Arcil 3",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "81ae494b.cd0588"
+        }
+      ],
+      "EmptyingToTank": [],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 3670,
+    "y": 1140,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "a12c486.a9dd238",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Filler yogurt Pack line",
+    "name1": "Strauss Filler yogurt Pack line",
+    "idPlc": "",
+    "idEquipDef": "ead3e1df.6dde58",
+    "menu": "Yogurt Pack line",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "a52ed95c.0945a"
+        }
+      ],
+      "EmptyingToTank": [],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 3680,
+    "y": 1220,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "51c7d555.452bac",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Filler yogurt Byloopack",
+    "name1": "Strauss Filler yogurt Byloopack",
+    "idPlc": "",
+    "idEquipDef": "13b6ad78.935213",
+    "menu": "Yogurt Byloopack",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "a52ed95c.0945a"
+        }
+      ],
+      "EmptyingToTank": [],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 3690,
+    "y": 1280,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "feb9edda.bef6e8",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Filler yogurt Ermi",
+    "name1": "Strauss Filler yogurt Ermi",
+    "idPlc": "",
+    "idEquipDef": "ab356193.47e85",
+    "menu": "Yogurt Ermi",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "2d2ad834.ae9b58"
+        }
+      ],
+      "EmptyingToTank": [],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 3670,
+    "y": 1360,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "3cc8b7bf.e5e6",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 14 TankArea Dressing mixing tank",
+    "name1": "Dressing mixing tank",
+    "idArea": "1cf294b2.5a03c3",
+    "TankAreaDefFilling": "ed8646ab.1ff08",
+    "TankAreaDefEmptying": "38e74000.40b7f",
+    "options": {
+      "Filling": [
+        {
+          "label": "7a20d330.895a1c"
+        },
+        {
+          "label": "3017d7d9.a0c91"
+        },
+        {
+          "label": "ed8646ab.1ff08"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "2882634b.f127bc"
+        },
+        {
+          "label": "38e74000.40b7f"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 1340,
+    "y": 1720,
+    "wires": [
+      [
+        "ebc2c385.7e8d88",
+        "a313fcb3.a438e8",
+        "b87135cb.8bc208"
+      ]
+    ]
+  },
+  {
+    "id": "ebc2c385.7e8d88",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Ski Dressing tank CT131",
+    "name1": "CT131",
+    "idTankArea": "3cc8b7bf.e5e6",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1360,
+    "y": 1800,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "215e0e8f.c52f82",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage Area Dosing Dressing Skim Milk",
+    "name1": "Cottage Area Dosing Dressing Skim Milk",
+    "idPlc": "",
+    "idEquipDef": "d8b56568.564a5",
+    "menu": "Cottage Area Dosing Dressing Skim Milk",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "dfd00f99.ea77a"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "3017d7d9.a0c91"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 960,
+    "y": 1780,
+    "wires": [
+      [
+        "3cc8b7bf.e5e6"
+      ]
+    ]
+  },
+  {
+    "id": "b473d731.92e28",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage Area Dosing Dressing Cream",
+    "name1": "Cottage Area Dosing Dressing Cream",
+    "idPlc": "",
+    "idEquipDef": "d8b56568.564a5",
+    "menu": "Cottage Area Dosing Dressing Cream",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "9c674e59.f20ae8"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "7a20d330.895a1c"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 950,
+    "y": 1720,
+    "wires": [
+      [
+        "3cc8b7bf.e5e6"
+      ]
+    ]
+  },
+  {
+    "id": "a313fcb3.a438e8",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage Dressing Mixing Looping",
+    "name1": "Strauss Cottage Dressing Mixing Looping",
+    "idPlc": "",
+    "idEquipDef": "a7aac15e.64554",
+    "menu": "Cottage Dressing Mixing Looping",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "2882634b.f127bc"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "ed8646ab.1ff08"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 1780,
+    "y": 1660,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "b87135cb.8bc208",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage Pasto CP131",
+    "name1": "Cottage Pasto CP131",
+    "idPlc": "",
+    "idEquipDef": "b1076362.d550d8",
+    "menu": "Cottage Pasto CP131",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "38e74000.40b7f"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "bb6238ee.33b0f"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 1810,
+    "y": 1740,
+    "wires": [
+      [
+        "b37de35d.68404"
+      ]
+    ]
+  },
+  {
+    "id": "b37de35d.68404",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 15 TankArea cottage dressing tank",
+    "name1": "Cottage dressing tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "bb6238ee.33b0f",
+    "TankAreaDefEmptying": "95253f60.6f36b8",
+    "options": {
+      "Filling": [
+        {
+          "label": "bb6238ee.33b0f"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "95253f60.6f36b8"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 2230,
+    "y": 1740,
+    "wires": [
+      [
+        "58882415.920244",
+        "7730f70d.7c5658",
+        "d17cf4af.913168"
+      ]
+    ]
+  },
+  {
+    "id": "58882415.920244",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage dressing tank CT151",
+    "name1": "CT151",
+    "idTankArea": "fd639df5.2666b8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2310,
+    "y": 1800,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "7730f70d.7c5658",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage dressing tank CT152",
+    "name1": "CT152",
+    "idTankArea": "fd639df5.2666b8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2310,
+    "y": 1840,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "de22a7e9.c0cd4",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 16 TankArea cottage VAT tank",
+    "name1": "Cottage VAT tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "d2f68368.b572d8",
+    "TankAreaDefEmptying": "4aeee193.3a03f8",
+    "options": {
+      "Filling": [
+        {
+          "label": "d2f68368.b572d8"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "4aeee193.3a03f8"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 1340,
+    "y": 1960,
+    "wires": [
+      [
+        "5bcf18c1.b19028",
+        "93b60d48.9e78c8",
+        "d9df7ce1.f2bc58",
+        "a2341c89.3df8f"
+      ]
+    ]
+  },
+  {
+    "id": "5bcf18c1.b19028",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage VAT tank CT201",
+    "name1": "CT201",
+    "idTankArea": "705d16c6.6afd4",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1370,
+    "y": 2020,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "93b60d48.9e78c8",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage VAT tank CT202",
+    "name1": "CT202",
+    "idTankArea": "705d16c6.6afd4",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1370,
+    "y": 2060,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "d9df7ce1.f2bc58",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage VAT tank CT203",
+    "name1": "CT203",
+    "idTankArea": "705d16c6.6afd4",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1370,
+    "y": 2100,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "f4263721.09916",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage Pasto CP101",
+    "name1": "Strauss Cottage Pasto CP101",
+    "idPlc": "",
+    "idEquipDef": "b1076362.d550d8",
+    "menu": "Cottage Pasto CP101",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "1b6c161b.8eecca"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "d2f68368.b572d8"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 870,
+    "y": 1960,
+    "wires": [
+      [
+        "de22a7e9.c0cd4"
+      ]
+    ]
+  },
+  {
+    "id": "6ab371d9.6f88e8",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 17 TankArea cottage creamer tank",
+    "name1": "Cottage creamer tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "c2d410e0.703e2",
+    "TankAreaDefEmptying": "aef686d0.fdb218",
+    "options": {
+      "Filling": [
+        {
+          "label": "c2d410e0.703e2"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "aef686d0.fdb218"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 3250,
+    "y": 1740,
+    "wires": [
+      [
+        "1d6eeeb.58f8e11",
+        "b144f355.10ff",
+        "113ce091.1f439f"
+      ]
+    ]
+  },
+  {
+    "id": "1d6eeeb.58f8e11",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage creamer tank CT331",
+    "name1": "CT331",
+    "idTankArea": "15ccaab8.de37ad",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3250,
+    "y": 1800,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "b144f355.10ff",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage creamer tank CT332",
+    "name1": "CT332",
+    "idTankArea": "15ccaab8.de37ad",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3250,
+    "y": 1840,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "25423e4d.b48d12",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 19 TankArea cottage buffer tank",
+    "name1": "cottage buffer tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "57f5f586.10e89c",
+    "TankAreaDefEmptying": "",
+    "options": {
+      "Filling": [
+        {
+          "label": "_ADD_"
+        }
+      ],
+      "Emptying": []
+    },
+    "outputs": 1,
+    "x": 4210,
+    "y": 1740,
+    "wires": [
+      [
+        "faa3fe6.23c96"
+      ]
+    ]
+  },
+  {
+    "id": "faa3fe6.23c96",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage buffer tank CT333",
+    "name1": "CT333",
+    "idTankArea": "42c0c1f7.aa4db",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 4270,
+    "y": 1800,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "113ce091.1f439f",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage creamer transfert to cottage buffer tank",
+    "name1": "Strauss Cottage creamer transfert to cottage buffer tank",
+    "idPlc": "",
+    "idEquipDef": "bcb85d58.b2b688",
+    "menu": "Cottage creamer  transfert to cottage buffer tank",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "aef686d0.fdb218"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "57f5f586.10e89c"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 3690,
+    "y": 1740,
+    "wires": [
+      [
+        "25423e4d.b48d12"
+      ]
+    ]
+  },
+  {
+    "id": "d17cf4af.913168",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage Dressing Dosing to cottage creamer",
+    "name1": "Cottage Dressing Dosing to cottage creamer",
+    "idPlc": "",
+    "idEquipDef": "d8b56568.564a5",
+    "menu": "Cottage Dressing Dosing to cottage creamer",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "95253f60.6f36b8"
+        },
+        {
+          "label": "d307f8b1.aa649"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "c2d410e0.703e2"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 2830,
+    "y": 1740,
+    "wires": [
+      [
+        "6ab371d9.6f88e8"
+      ]
+    ]
+  },
+  {
+    "id": "24da5d6f.ce8ab2",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 18 TankArea cottage washer cooler tank",
+    "name1": "cottage washer cooler tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "4ad3fdb0.cdc234",
+    "TankAreaDefEmptying": "d307f8b1.aa649",
+    "options": {
+      "Filling": [
+        {
+          "label": "4ad3fdb0.cdc234"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "d307f8b1.aa649"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 2330,
+    "y": 1960,
+    "wires": [
+      [
+        "5c09dfb3.3a39f",
+        "edc5a5a2.d8d09",
+        "904cb3b.70b5e5",
+        "d17cf4af.913168"
+      ]
+    ]
+  },
+  {
+    "id": "5c09dfb3.3a39f",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage creamer tank CT311",
+    "name1": "CT311",
+    "idTankArea": "4634f48.4f4328c",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2340,
+    "y": 2020,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "edc5a5a2.d8d09",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage creamer tank CT312",
+    "name1": "CT312",
+    "idTankArea": "4634f48.4f4328c",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2340,
+    "y": 2060,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "904cb3b.70b5e5",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage creamer tank CT313",
+    "name1": "CT313",
+    "idTankArea": "4634f48.4f4328c",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2340,
+    "y": 2100,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "a2341c89.3df8f",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Cottage VAT Dosing to cottage washer cooler",
+    "name1": "Cottage VAT Dosing to cottage washer cooler",
+    "idPlc": "",
+    "idEquipDef": "d8b56568.564a5",
+    "menu": "Cottage VAT Dosing to cottage washer cooler",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "4aeee193.3a03f8"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "4ad3fdb0.cdc234"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 1850,
+    "y": 1960,
+    "wires": [
+      [
+        "24da5d6f.ce8ab2"
+      ]
+    ]
+  },
+  {
+    "id": "7fcb4557.e3ae5c",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 03Bis BufferCreamPrepastoMP011",
+    "name1": "BufferCreamPrepastoMP011",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "ae192086.c697e8",
+    "TankAreaDefEmptying": "3502b2e0.53347e",
+    "options": {
+      "Filling": [
+        {
+          "label": "ae192086.c697e8"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "3502b2e0.53347e"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 2770,
+    "y": 120,
+    "wires": [
+      [
+        "24488513.a84aca",
+        "9dc727ec.f0f7d8"
+      ]
+    ]
+  },
+  {
+    "id": "24488513.a84aca",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Buffer cream MT018",
+    "name1": "MT018",
+    "idTankArea": "7fcb4557.e3ae5c",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2830,
+    "y": 180,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "4b18f62b.a3a89",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 03Bis BufferCreamPrepastoMP021",
+    "name1": "BufferCreamPrepastoMP021",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "e70286a9.78d29",
+    "TankAreaDefEmptying": "cc28d8c4.93fd08",
+    "options": {
+      "Filling": [
+        {
+          "label": "e70286a9.78d29"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "_ADD_"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 2770,
+    "y": 260,
+    "wires": [
+      [
+        "fc26618c.b6eab8",
+        "a49d2112.d857f8"
+      ]
+    ]
+  },
+  {
+    "id": "fc26618c.b6eab8",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Buffer cream MT028",
+    "name1": "MT028",
+    "idTankArea": "4b18f62b.a3a89",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2830,
+    "y": 320,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "9dc727ec.f0f7d8",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss reception Emptying MT018",
+    "name1": "Strauss reception Emptying MT018",
+    "idPlc": "",
+    "idEquipDef": "d8b56568.564a5",
+    "menu": "Strauss reception Emptying MT018",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "3502b2e0.53347e"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "a94ec732.1682c8"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 3250,
+    "y": 160,
+    "wires": [
+      [
+        "e1dd2a93.9a5878"
+      ]
+    ]
+  },
+  {
+    "id": "a49d2112.d857f8",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss reception Emptying MT028",
+    "name1": "Strauss reception Emptying MT028",
+    "idPlc": "",
+    "idEquipDef": "d8b56568.564a5",
+    "menu": "Strauss reception Emptying MT028",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "cc28d8c4.93fd08"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "93c03867.13b578"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 3250,
+    "y": 260,
+    "wires": [
+      [
+        "e1dd2a93.9a5878"
+      ]
+    ]
+  },
+  {
+    "id": "15678094.3ba507",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 20 TankArea actimel mixing tank",
+    "name1": "Actimel mixing tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "fb0b1e57.511f9",
+    "TankAreaDefEmptying": "b935c6f1.648f18",
+    "options": {
+      "Filling": [
+        {
+          "label": "92aff896.1dfed8"
+        },
+        {
+          "label": "fb0b1e57.511f9"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "39b5fcab.e1ba7c"
+        },
+        {
+          "label": "b935c6f1.648f18"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 1400,
+    "y": 2340,
+    "wires": [
+      [
+        "88e6e8c0.d2dd9",
+        "5461fd73.919794"
+      ]
+    ]
+  },
+  {
+    "id": "88e6e8c0.d2dd9",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss actimel mixing tank YT003",
+    "name1": "YT003",
+    "idTankArea": "8507d1a7.3b69d8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1420,
+    "y": 2400,
+    "wires": [
+      [
+        "e0a3fbe6.d6ced8"
+      ]
+    ]
+  },
+  {
+    "id": "e0984b1f.6071a",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Actimel Area Dosing Skim Milk to mixing tank",
+    "name1": "Actimel Area Dosing Skim Milk to mixing tank",
+    "idPlc": "",
+    "idEquipDef": "d8b56568.564a5",
+    "menu": "Actimel Area Dosing Skim Milk to mixing tank",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "83d374.e0e9149"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "92aff896.1dfed8"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 960,
+    "y": 2300,
+    "wires": [
+      [
+        "15678094.3ba507"
+      ]
+    ]
+  },
+  {
+    "id": "5461fd73.919794",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Actimel Mixing Looping",
+    "name1": "Strauss Actimel Mixing Looping",
+    "idPlc": "",
+    "idEquipDef": "a7aac15e.64554",
+    "menu": "Actimel Mixing Looping",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "39b5fcab.e1ba7c"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "fb0b1e57.511f9"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 1830,
+    "y": 2240,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "eeb68f63.325c18",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 22 TankArea actimel fermentation tank",
+    "name1": "actimel fermentation tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "cc2ee914.747698",
+    "TankAreaDefEmptying": "37258e58.b85922",
+    "options": {
+      "Filling": [
+        {
+          "label": "cc2ee914.747698"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "37258e58.b85922"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 2260,
+    "y": 2420,
+    "wires": [
+      [
+        "1fa1eb91.eab914",
+        "c04f5f85.5eb77",
+        "556ca519.3cb994",
+        "522f8723.2e539",
+        "86a65ada.d426f8",
+        "5cb05175.16196"
+      ]
+    ]
+  },
+  {
+    "id": "1fa1eb91.eab914",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss actimel fermentation tank YT211",
+    "name1": "YT211",
+    "idTankArea": "2cdd4ce1.7a39dc",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2340,
+    "y": 2480,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "c04f5f85.5eb77",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss actimel fermentation tank YT212",
+    "name1": "YT212",
+    "idTankArea": "2cdd4ce1.7a39dc",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2340,
+    "y": 2520,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "556ca519.3cb994",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss actimel fermentation tank YT213",
+    "name1": "YT213",
+    "idTankArea": "2cdd4ce1.7a39dc",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2340,
+    "y": 2560,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "522f8723.2e539",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss actimel fermentation tank YT214",
+    "name1": "YT214",
+    "idTankArea": "2cdd4ce1.7a39dc",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2340,
+    "y": 2600,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "86a65ada.d426f8",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss actimel fermentation tank YT215",
+    "name1": "YT215",
+    "idTankArea": "2cdd4ce1.7a39dc",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2340,
+    "y": 2640,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "8a599b4b.a6838",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 23 TankArea actimel 3 phase mixing tank",
+    "name1": "actimel 3 phase mixing tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "44a72948.9cc36",
+    "TankAreaDefEmptying": "3b5248a8.57f678",
+    "options": {
+      "Filling": [
+        {
+          "label": "ff95ebec.00401"
+        },
+        {
+          "label": "44a72948.9cc36"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "3b5248a8.57f678"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 3270,
+    "y": 2260,
+    "wires": [
+      [
+        "ab036771.7f9ff8",
+        "e20dc6fd.f1f0b8"
+      ]
+    ]
+  },
+  {
+    "id": "ab036771.7f9ff8",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Actimel 3 phase mixing storage  tank YT221",
+    "name1": "YT221",
+    "idTankArea": "4a93ada5.4045a4",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 3380,
+    "y": 2320,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "e0a3fbe6.d6ced8",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Actimel Pasto YP002",
+    "name1": "Actimel Pasto YP002",
+    "idPlc": "",
+    "idEquipDef": "b1076362.d550d8",
+    "menu": "Actimel Pasto YP002",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "b935c6f1.648f18"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "cc2ee914.747698"
+        },
+        {
+          "label": "ff95ebec.00401"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 1830,
+    "y": 2340,
+    "wires": [
+      [
+        "eeb68f63.325c18",
+        "8a599b4b.a6838"
+      ]
+    ]
+  },
+  {
+    "id": "e20dc6fd.f1f0b8",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Actimel Cooler",
+    "name1": "Strauss Actimel Cooler",
+    "idPlc": "",
+    "idEquipDef": "75f5f0a4.eb6028",
+    "menu": "Actimel Cooler",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "3b5248a8.57f678"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "cca3d39e.4a4e1"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 3780,
+    "y": 2260,
+    "wires": [
+      [
+        "7a60599a.bca7d8"
+      ]
+    ]
+  },
+  {
+    "id": "5cb05175.16196",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Actimel transfert casei to 3 phase mixing storage",
+    "name1": "Actimel transfert casei to 3 phase mixing storage",
+    "idPlc": "",
+    "idEquipDef": "d8b56568.564a5",
+    "menu": "Actimel transfert casei to 3 phase mixing storage",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "37258e58.b85922"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "44a72948.9cc36"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 2850,
+    "y": 2420,
+    "wires": [
+      [
+        "8a599b4b.a6838"
+      ]
+    ]
+  },
+  {
+    "id": "acbb203b.73a7",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 06 TankArea Mixing UF",
+    "name1": "Mixing UF TankArea",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "e8aa43e2.1926c",
+    "TankAreaDefEmptying": "a08eed50.f06048",
+    "options": {
+      "Filling": [
+        {
+          "label": "9c267e2.9c2e18"
+        },
+        {
+          "label": "e8aa43e2.1926c"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "29b64bf2.298d04"
+        },
+        {
+          "label": "a08eed50.f06048"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 970,
+    "y": 2880,
+    "wires": [
+      [
+        "1a3b149b.a7b5db",
+        "97240036.338c48",
+        "66897243.e76acc",
+        "14a3eeaa.7d33e1"
+      ]
+    ]
+  },
+  {
+    "id": "1a3b149b.a7b5db",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss mixing UF QT621",
+    "name1": "QT621",
+    "idTankArea": "a3e5a2ce.d48048",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 990,
+    "y": 2940,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "97240036.338c48",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss mixing UF QT622",
+    "name1": "QT622",
+    "idTankArea": "a3e5a2ce.d48048",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 990,
+    "y": 2980,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "d95222d4.b8ecb",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss UF Thermizer MPC QP601",
+    "name1": "Strauss UF Thermizer MPC QP601",
+    "idPlc": "",
+    "idEquipDef": "7703c802.39f228",
+    "menu": "Thermizer MPC QP601",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "9b2eed46.a59858"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "9c267e2.9c2e18"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 600,
+    "y": 2880,
+    "wires": [
+      [
+        "acbb203b.73a7"
+      ]
+    ]
+  },
+  {
+    "id": "75e96cfa.643484",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss UF cream injection inside Pasto QP631",
+    "name1": "Strauss UF cream injection inside Pasto QP631",
+    "idPlc": "",
+    "idEquipDef": "d8b56568.564a5",
+    "menu": "Cream injection inside Pasto QP631",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [],
+      "EmptyingToTank": [],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 1000,
+    "y": 3100,
+    "wires": [
+      [
+        "14a3eeaa.7d33e1"
+      ]
+    ]
+  },
+  {
+    "id": "7047647.4429d9c",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 07 TankArea UF fermentation tank",
+    "name1": "UF fermentation tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "9e8cbdaa.ddc3a",
+    "TankAreaDefEmptying": "73542d3a.b3f34c",
+    "options": {
+      "Filling": [
+        {
+          "label": "9e8cbdaa.ddc3a"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "73542d3a.b3f34c"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 1790,
+    "y": 2880,
+    "wires": [
+      [
+        "46c9cb40.1ffd14",
+        "25d9d5e3.b16b32",
+        "d2feb447.08bcb8"
+      ]
+    ]
+  },
+  {
+    "id": "46c9cb40.1ffd14",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss UF fermentation QT641",
+    "name1": "QT641",
+    "idTankArea": "d63cc863.a422b8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1800,
+    "y": 2940,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "25d9d5e3.b16b32",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss UF fermentation QT641",
+    "name1": "QT642",
+    "idTankArea": "d63cc863.a422b8",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1800,
+    "y": 2980,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "66897243.e76acc",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss UF Mixing Looping",
+    "name1": "Strauss UF Mixing Looping",
+    "idPlc": "",
+    "idEquipDef": "a7aac15e.64554",
+    "menu": "UF Mixing Looping",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [],
+      "EmptyingToTank": [],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 1300,
+    "y": 2780,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "14a3eeaa.7d33e1",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss UF Pasto QP631",
+    "name1": "UF Pasto QP631",
+    "idPlc": "",
+    "idEquipDef": "b1076362.d550d8",
+    "menu": "UF Pasto QP631",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "a08eed50.f06048"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "9e8cbdaa.ddc3a"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 1390,
+    "y": 2880,
+    "wires": [
+      [
+        "7047647.4429d9c"
+      ]
+    ]
+  },
+  {
+    "id": "d87a4a26.15895",
+    "type": "comment",
+    "z": "525eb504.32348c",
+    "name": "Injection en ligne de cream avant la pastorization",
+    "info": "",
+    "x": 1010,
+    "y": 3060,
+    "wires": []
+  },
+  {
+    "id": "154e3d3f.3c2beb",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 08 TankArea UF storage tank",
+    "name1": "UF storage tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "12079ce2.f454eb",
+    "TankAreaDefEmptying": "5a1273c8.a942a4",
+    "options": {
+      "Filling": [
+        {
+          "label": "12079ce2.f454eb"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "5a1273c8.a942a4"
+        },
+        {
+          "label": "e38e2c8f.b38088"
+        },
+        {
+          "label": "f7edbf69.3da208"
+        },
+        {
+          "label": "903eba56.dff908"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 2490,
+    "y": 2880,
+    "wires": [
+      [
+        "15eb68b.b316117",
+        "4df5e21a.03d82c",
+        "72c5e072.a586b",
+        "39a91dc4.a80952",
+        "a2020671.59bed",
+        "4a174441.ae76f4",
+        "e240bc7b.e58dd",
+        "b804f0e5.4d0eb8",
+        "310537b4.dd8708",
+        "1a8466b0.0bc131",
+        "f02af100.c53b28",
+        "142011a5.41ed0e"
+      ]
+    ]
+  },
+  {
+    "id": "15eb68b.b316117",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss UF storage QT321",
+    "name1": "QT321",
+    "idTankArea": "294fac8c.7c336c",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2510,
+    "y": 2940,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "4df5e21a.03d82c",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss UF storage QT322",
+    "name1": "QT322",
+    "idTankArea": "294fac8c.7c336c",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2510,
+    "y": 2980,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "72c5e072.a586b",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss UF storage QT323",
+    "name1": "QT323",
+    "idTankArea": "294fac8c.7c336c",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2510,
+    "y": 3020,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "39a91dc4.a80952",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss UF storage QT324",
+    "name1": "QT324",
+    "idTankArea": "294fac8c.7c336c",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2510,
+    "y": 3060,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "a2020671.59bed",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss UF storage QT331",
+    "name1": "QT331",
+    "idTankArea": "294fac8c.7c336c",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2510,
+    "y": 3100,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "4a174441.ae76f4",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss UF storage QT332",
+    "name1": "QT332",
+    "idTankArea": "294fac8c.7c336c",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2510,
+    "y": 3140,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "e240bc7b.e58dd",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss UF storage QT701",
+    "name1": "QT701",
+    "idTankArea": "294fac8c.7c336c",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2510,
+    "y": 3180,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "b804f0e5.4d0eb8",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss UF storage QT702",
+    "name1": "QT702",
+    "idTankArea": "294fac8c.7c336c",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 2510,
+    "y": 3220,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "d2feb447.08bcb8",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss UF Cooler",
+    "name1": "UF Cooler",
+    "idPlc": "",
+    "idEquipDef": "75f5f0a4.eb6028",
+    "menu": "UF Cooler",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "73542d3a.b3f34c"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "12079ce2.f454eb"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 2190,
+    "y": 2880,
+    "wires": [
+      [
+        "154e3d3f.3c2beb"
+      ]
+    ]
+  },
+  {
+    "id": "1a8466b0.0bc131",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Filler UF Arcil 4",
+    "name1": "Strauss Filler UF Arcil 4",
+    "idPlc": "",
+    "idEquipDef": "1d5fb632.ae07b2",
+    "menu": "Yogurt Arcil 4",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "e38e2c8f.b38088"
+        }
+      ],
+      "EmptyingToTank": [],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 3310,
+    "y": 2940,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "310537b4.dd8708",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Filler UF Arcil 3",
+    "name1": "Strauss Filler UF Arcil 3",
+    "idPlc": "",
+    "idEquipDef": "1d5fb632.ae07b2",
+    "menu": "Yogurt Arcil 3",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "5a1273c8.a942a4"
+        }
+      ],
+      "EmptyingToTank": [],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 3310,
+    "y": 2860,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "f02af100.c53b28",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Filler UF Ampack 3",
+    "name1": "Strauss Filler UF Ampack 3",
+    "idPlc": "",
+    "idEquipDef": "2786162b.4237fa",
+    "menu": "UF Ampack 3",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "f7edbf69.3da208"
+        }
+      ],
+      "EmptyingToTank": [],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 3320,
+    "y": 3020,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "142011a5.41ed0e",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Filler UF Erka",
+    "name1": "Strauss Filler UF Erka",
+    "idPlc": "",
+    "idEquipDef": "6cfaed4a.a79114",
+    "menu": "UF Erka",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "903eba56.dff908"
+        }
+      ],
+      "EmptyingToTank": [],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 3300,
+    "y": 3100,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "7024786f.485328",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 09 TankArea Skim milk for Ski cream",
+    "name1": "Skim milk for Ski cream",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "f5a7a8f5.c1757",
+    "TankAreaDefEmptying": "cac184bb.46982",
+    "options": {
+      "Filling": [
+        {
+          "label": "f5a7a8f5.c1757"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "cac184bb.46982"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 1060,
+    "y": 3380,
+    "wires": [
+      [
+        "9eddf3e1.c69f",
+        "7477930c.f5027c"
+      ]
+    ]
+  },
+  {
+    "id": "9eddf3e1.c69f",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss skim milk for ski cream QT412",
+    "name1": "QT412",
+    "idTankArea": "53b91546.f35a34",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1100,
+    "y": 3440,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "b44dc493.3659d8",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Ski Area Dosing Skim Milk for ski Cream",
+    "name1": "Ski Area Dosing Skim Milk for ski Cream",
+    "idPlc": "",
+    "idEquipDef": "d8b56568.564a5",
+    "menu": "Ski Area Dosing Skim Milk for ski Cream",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "aff7533a.868128"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "f5a7a8f5.c1757"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 620,
+    "y": 3380,
+    "wires": [
+      [
+        "7024786f.485328"
+      ]
+    ]
+  },
+  {
+    "id": "7477930c.f5027c",
+    "type": "Equip",
+    "z": "525eb504.32348c",
+    "name": "Strauss Ski cream Pasto QP401",
+    "name1": "Ski cream Pasto QP401",
+    "idPlc": "",
+    "idEquipDef": "b1076362.d550d8",
+    "menu": "Ski cream Pasto QP401",
+    "TankAreaDefFilling": "7a5d42d.1515f3c",
+    "TankAreaDefEmptying": "82700ff5.0c738",
+    "options": {
+      "EquipCaract": [],
+      "FillingFromTank": [
+        {
+          "label": "cac184bb.46982"
+        }
+      ],
+      "EmptyingToTank": [
+        {
+          "label": "5425f3e6.6626bc"
+        }
+      ],
+      "FillingFromEquip": [],
+      "EmptyingToEquip": []
+    },
+    "x": 770,
+    "y": 3240,
+    "wires": [
+      [
+        "cc40bbd0.532c88"
+      ]
+    ]
+  },
+  {
+    "id": "5daa86e3.fb3bf8",
+    "type": "comment",
+    "z": "525eb504.32348c",
+    "name": "Injection en ligne de skim milk avant la pastorization",
+    "info": "",
+    "x": 1060,
+    "y": 3340,
+    "wires": []
+  },
+  {
+    "id": "cc40bbd0.532c88",
+    "type": "TankArea",
+    "z": "525eb504.32348c",
+    "name": "Strauss 10 TankArea Ski cream Storage tank",
+    "name1": "Ski cream Storage tank",
+    "idArea": "22dcff12.683e08",
+    "TankAreaDefFilling": "5425f3e6.6626bc",
+    "TankAreaDefEmptying": "f4a96bfa.db272",
+    "options": {
+      "Filling": [
+        {
+          "label": "5425f3e6.6626bc"
+        }
+      ],
+      "Emptying": [
+        {
+          "label": "2d1e5d9.4760722"
+        },
+        {
+          "label": "2e138dea.6e1012"
+        },
+        {
+          "label": "e076bc31.269c8"
+        },
+        {
+          "label": "f4a96bfa.db272"
+        }
+      ]
+    },
+    "outputs": 1,
+    "x": 1660,
+    "y": 3280,
+    "wires": [
+      [
+        "7525fb18.01423c"
+      ]
+    ]
+  },
+  {
+    "id": "7525fb18.01423c",
+    "type": "Tank",
+    "z": "525eb504.32348c",
+    "name": "Strauss Ski cream storage tank QT431",
+    "name1": "QT431",
+    "idTankArea": "4314724a.0d641c",
+    "idTankDef": "5f82178e.62b3e",
+    "x": 1640,
+    "y": 3340,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "45f9a819.9464",
+    "type": "comment",
+    "z": "525eb504.32348c",
+    "name": "remettre les tanks",
+    "info": "",
+    "x": 1560,
+    "y": 3400,
+    "wires": []
+  }
+]
