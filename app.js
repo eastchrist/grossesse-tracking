@@ -257,7 +257,7 @@ httpsPromise.then(function (startupHttps) {
     }));
 // Enable body parser post data
     app.use(bodyParser.json({limit: '50mb'}));
-    app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
+    app.use(bodyParser.urlencoded({limit: '50mb', extended: true }));
 
 //Enable flash message
     app.use(connectFlash());
