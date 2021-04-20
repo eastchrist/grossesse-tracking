@@ -610,120 +610,6 @@
     }
    }
   },
-  "node-red-contrib-uibuilder": {
-   "name": "node-red-contrib-uibuilder",
-   "version": "2.0.8",
-   "local": true,
-   "nodes": {
-    "uibuilder": {
-     "name": "uibuilder",
-     "types": [
-      "uibuilder"
-     ],
-     "enabled": true,
-     "local": true,
-     "module": "node-red-contrib-uibuilder",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-contrib-uibuilder\\nodes\\uibuilder.js"
-    }
-   }
-  },
-  "node-red-node-serialport": {
-   "name": "node-red-node-serialport",
-   "version": "0.10.3",
-   "local": true,
-   "nodes": {
-    "serialport": {
-     "name": "serialport",
-     "types": [
-      "serial in",
-      "serial out",
-      "serial request",
-      "serial-port"
-     ],
-     "enabled": true,
-     "local": true,
-     "module": "node-red-node-serialport",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-node-serialport\\25-serial.js"
-    }
-   }
-  },
-  "node-red-contrib-opcua": {
-   "name": "node-red-contrib-opcua",
-   "version": "0.2.87",
-   "local": true,
-   "nodes": {
-    "OpcUa-Item": {
-     "name": "OpcUa-Item",
-     "types": [
-      "OpcUa-Item"
-     ],
-     "enabled": true,
-     "local": true,
-     "module": "node-red-contrib-opcua",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-contrib-opcua\\opcua\\101-opcuaitem.js"
-    },
-    "OpcUa-Client": {
-     "name": "OpcUa-Client",
-     "types": [
-      "OpcUa-Client"
-     ],
-     "enabled": true,
-     "local": true,
-     "module": "node-red-contrib-opcua",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-contrib-opcua\\opcua\\102-opcuaclient.js"
-    },
-    "OpcUa-Browser": {
-     "name": "OpcUa-Browser",
-     "types": [
-      "OpcUa-Browser"
-     ],
-     "enabled": true,
-     "local": true,
-     "module": "node-red-contrib-opcua",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-contrib-opcua\\opcua\\103-opcuabrowser.js"
-    },
-    "OpcUa-Server": {
-     "name": "OpcUa-Server",
-     "types": [
-      "OpcUa-Server"
-     ],
-     "enabled": true,
-     "local": true,
-     "module": "node-red-contrib-opcua",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-contrib-opcua\\opcua\\104-opcuaserver.js"
-    },
-    "OpcUa-Endpoint": {
-     "name": "OpcUa-Endpoint",
-     "types": [
-      "OpcUa-Endpoint"
-     ],
-     "enabled": true,
-     "local": true,
-     "module": "node-red-contrib-opcua",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-contrib-opcua\\opcua\\105-opcuaendpoint.js"
-    },
-    "OpcUa-Event": {
-     "name": "OpcUa-Event",
-     "types": [
-      "OpcUa-Event"
-     ],
-     "enabled": true,
-     "local": true,
-     "module": "node-red-contrib-opcua",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-contrib-opcua\\opcua\\106-opcuaevent.js"
-    },
-    "OpcUa-Method": {
-     "name": "OpcUa-Method",
-     "types": [
-      "OpcUa-Method"
-     ],
-     "enabled": true,
-     "local": true,
-     "module": "node-red-contrib-opcua",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-contrib-opcua\\opcua\\107-opcuamethod.js"
-    }
-   }
-  },
   "node-red-node-mysql": {
    "name": "node-red-node-mysql",
    "version": "0.1.1",
@@ -780,15 +666,15 @@
       "Computer",
       "Factory",
       "Areas",
-      "Area_Def_Carto",
-      "TankArea_Def_Carto",
-      "Tank_Def_Carto",
       "Area",
-      "Tank_Area_Def_Filling",
-      "Tank_Area_Def_Emptying",
-      "Tank_Area",
-      "Tank_Def",
-      "Tank"
+      "TankAreaDefFilling",
+      "TankAreaDefEmptying",
+      "TankArea",
+      "TankDef",
+      "Tank",
+      "AreaDefCarto",
+      "TankAreaDefCarto",
+      "TankDefCarto"
      ],
      "enabled": true,
      "local": true,
@@ -811,14 +697,14 @@
      "name": "equip",
      "types": [
       "Equips",
-      "Equip_Def",
-      "Equip_Def_Digital",
-      "Equip_Def_Analog",
-      "Equip_Def_GAlarms",
-      "Equip_Def_Carto",
-      "Equip_Def_EventList",
-      "Equip_Def_EventM",
-      "Equip_Def_EventS",
+      "EquipDef",
+      "EquipDefDigital",
+      "EquipDefAnalog",
+      "EquipDefGAlarms",
+      "EquipDefCarto",
+      "EquipDefEventList",
+      "EquipDefEventM",
+      "EquipDefEventS",
       "Equip"
      ],
      "enabled": true,
@@ -877,7 +763,7 @@
     }
    },
    "menu-menu-item-palette": true,
-   "menu-menu-item-sidebar": true,
+   "menu-menu-item-sidebar": false,
    "menu-deploymenu-item-flow": false,
    "menu-deploymenu-item-full": true,
    "menu-deploymenu-item-node": false
