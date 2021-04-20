@@ -1,0 +1,1 @@
+sequelize model:create --attributes "email:string username:string :string password:string isAdmin:boolean" --name User
