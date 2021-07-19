@@ -17,7 +17,7 @@
 module.exports = {
     // the tcp port that the Node-RED web server is listening on
     //uiPort: process.env.PORT || 1880,
-    uiPort: process.env.PORT || 3000,
+    uiPort: process.env.PORT || 5000,
 
     // By default, the Node-RED UI accepts connections on all IPv4 interfaces.
     // To listen on all IPv6 addresses, set uiHost to "::",
@@ -62,7 +62,7 @@ module.exports = {
     //debugUseColors: true,
 
     // The file containing the flows. If not set, it defaults to flows_<hostname>.json
-    //flowFile: 'flows.json',
+    flowFile: 'flows_DESKTOP.json',
 
     // To enabled pretty-printing of the flow within the flow file, set the following
     //  property to true:
