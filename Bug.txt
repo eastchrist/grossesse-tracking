@@ -1,0 +1,3 @@
+Selection Collector/en line trop petit
+
+lors de l inport de node, si les fonctions d un equipement existent deja et que cet index de fonction n existe pas (Ajout fonction dans equipment default) alors demander avant d ajouter
