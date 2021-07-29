@@ -657,7 +657,7 @@
   },
   "node-red-factory-config": {
    "name": "node-red-factory-config",
-   "version": "1.0.6",
+   "version": "1.0.7",
    "local": true,
    "nodes": {
     "factory": {
@@ -669,6 +669,7 @@
       "Area",
       "TankAreaDefFilling",
       "TankAreaDefEmptying",
+      "TankAreas",
       "TankArea",
       "TankDef",
       "Tank",
@@ -763,7 +764,7 @@
     }
    },
    "menu-menu-item-palette": true,
-   "menu-menu-item-sidebar": false,
+   "menu-menu-item-sidebar": true,
    "menu-deploymenu-item-flow": false,
    "menu-deploymenu-item-full": true,
    "menu-deploymenu-item-node": false
