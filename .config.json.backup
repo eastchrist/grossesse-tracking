@@ -13,7 +13,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\common\\20-inject.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\common\\20-inject.js"
     },
     "debug": {
      "name": "debug",
@@ -23,7 +23,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\common\\21-debug.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\common\\21-debug.js"
     },
     "complete": {
      "name": "complete",
@@ -33,7 +33,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\common\\24-complete.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\common\\24-complete.js"
     },
     "catch": {
      "name": "catch",
@@ -43,7 +43,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\common\\25-catch.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\common\\25-catch.js"
     },
     "status": {
      "name": "status",
@@ -53,7 +53,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\common\\25-status.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\common\\25-status.js"
     },
     "link": {
      "name": "link",
@@ -64,7 +64,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\common\\60-link.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\common\\60-link.js"
     },
     "comment": {
      "name": "comment",
@@ -74,7 +74,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\common\\90-comment.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\common\\90-comment.js"
     },
     "unknown": {
      "name": "unknown",
@@ -84,7 +84,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\common\\98-unknown.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\common\\98-unknown.js"
     },
     "function": {
      "name": "function",
@@ -94,7 +94,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\function\\10-function.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\function\\10-function.js"
     },
     "switch": {
      "name": "switch",
@@ -104,7 +104,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\function\\10-switch.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\function\\10-switch.js"
     },
     "change": {
      "name": "change",
@@ -114,7 +114,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\function\\15-change.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\function\\15-change.js"
     },
     "range": {
      "name": "range",
@@ -124,7 +124,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\function\\16-range.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\function\\16-range.js"
     },
     "template": {
      "name": "template",
@@ -134,7 +134,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\function\\80-template.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\function\\80-template.js"
     },
     "delay": {
      "name": "delay",
@@ -144,7 +144,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\function\\89-delay.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\function\\89-delay.js"
     },
     "trigger": {
      "name": "trigger",
@@ -154,7 +154,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\function\\89-trigger.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\function\\89-trigger.js"
     },
     "exec": {
      "name": "exec",
@@ -164,7 +164,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\function\\90-exec.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\function\\90-exec.js"
     },
     "tls": {
      "name": "tls",
@@ -174,7 +174,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\network\\05-tls.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\network\\05-tls.js"
     },
     "httpproxy": {
      "name": "httpproxy",
@@ -184,7 +184,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\network\\06-httpproxy.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\network\\06-httpproxy.js"
     },
     "mqtt": {
      "name": "mqtt",
@@ -196,7 +196,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\network\\10-mqtt.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\network\\10-mqtt.js"
     },
     "httpin": {
      "name": "httpin",
@@ -207,7 +207,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\network\\21-httpin.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\network\\21-httpin.js"
     },
     "httprequest": {
      "name": "httprequest",
@@ -217,7 +217,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\network\\21-httprequest.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\network\\21-httprequest.js"
     },
     "websocket": {
      "name": "websocket",
@@ -230,7 +230,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\network\\22-websocket.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\network\\22-websocket.js"
     },
     "tcpin": {
      "name": "tcpin",
@@ -242,7 +242,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\network\\31-tcpin.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\network\\31-tcpin.js"
     },
     "udp": {
      "name": "udp",
@@ -253,7 +253,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\network\\32-udp.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\network\\32-udp.js"
     },
     "CSV": {
      "name": "CSV",
@@ -263,7 +263,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\parsers\\70-CSV.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\parsers\\70-CSV.js"
     },
     "HTML": {
      "name": "HTML",
@@ -273,7 +273,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\parsers\\70-HTML.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\parsers\\70-HTML.js"
     },
     "JSON": {
      "name": "JSON",
@@ -283,7 +283,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\parsers\\70-JSON.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\parsers\\70-JSON.js"
     },
     "XML": {
      "name": "XML",
@@ -293,7 +293,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\parsers\\70-XML.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\parsers\\70-XML.js"
     },
     "YAML": {
      "name": "YAML",
@@ -303,7 +303,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\parsers\\70-YAML.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\parsers\\70-YAML.js"
     },
     "split": {
      "name": "split",
@@ -314,7 +314,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\sequence\\17-split.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\sequence\\17-split.js"
     },
     "sort": {
      "name": "sort",
@@ -324,7 +324,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\sequence\\18-sort.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\sequence\\18-sort.js"
     },
     "batch": {
      "name": "batch",
@@ -334,7 +334,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\sequence\\19-batch.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\sequence\\19-batch.js"
     },
     "file": {
      "name": "file",
@@ -345,7 +345,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\storage\\10-file.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\storage\\10-file.js"
     },
     "watch": {
      "name": "watch",
@@ -355,7 +355,7 @@
      "enabled": true,
      "local": false,
      "module": "node-red",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\@node-red\\nodes\\core\\storage\\23-watch.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\@node-red\\nodes\\core\\storage\\23-watch.js"
     }
    }
   },
@@ -372,7 +372,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-node-rbe",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-node-rbe\\rbe.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-node-rbe\\rbe.js"
     }
    }
   },
@@ -389,7 +389,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-node-tail",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-node-tail\\28-tail.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-node-tail\\28-tail.js"
     }
    }
   },
@@ -406,7 +406,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_base.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_base.js"
     },
     "ui_button": {
      "name": "ui_button",
@@ -416,7 +416,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_button.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_button.js"
     },
     "ui_dropdown": {
      "name": "ui_dropdown",
@@ -426,7 +426,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_dropdown.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_dropdown.js"
     },
     "ui_switch": {
      "name": "ui_switch",
@@ -436,7 +436,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_switch.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_switch.js"
     },
     "ui_slider": {
      "name": "ui_slider",
@@ -446,7 +446,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_slider.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_slider.js"
     },
     "ui_numeric": {
      "name": "ui_numeric",
@@ -456,7 +456,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_numeric.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_numeric.js"
     },
     "ui_text_input": {
      "name": "ui_text_input",
@@ -466,7 +466,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_text_input.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_text_input.js"
     },
     "ui_date_picker": {
      "name": "ui_date_picker",
@@ -476,7 +476,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_date_picker.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_date_picker.js"
     },
     "ui_colour_picker": {
      "name": "ui_colour_picker",
@@ -486,7 +486,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_colour_picker.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_colour_picker.js"
     },
     "ui_form": {
      "name": "ui_form",
@@ -496,7 +496,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_form.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_form.js"
     },
     "ui_text": {
      "name": "ui_text",
@@ -506,7 +506,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_text.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_text.js"
     },
     "ui_gauge": {
      "name": "ui_gauge",
@@ -516,7 +516,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_gauge.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_gauge.js"
     },
     "ui_chart": {
      "name": "ui_chart",
@@ -526,7 +526,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_chart.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_chart.js"
     },
     "ui_audio": {
      "name": "ui_audio",
@@ -536,7 +536,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_audio.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_audio.js"
     },
     "ui_toast": {
      "name": "ui_toast",
@@ -546,7 +546,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_toast.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_toast.js"
     },
     "ui_ui_control": {
      "name": "ui_ui_control",
@@ -556,7 +556,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_ui_control.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_ui_control.js"
     },
     "ui_template": {
      "name": "ui_template",
@@ -566,7 +566,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_template.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_template.js"
     },
     "ui_link": {
      "name": "ui_link",
@@ -576,7 +576,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_link.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_link.js"
     },
     "ui_tab": {
      "name": "ui_tab",
@@ -586,7 +586,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_tab.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_tab.js"
     },
     "ui_group": {
      "name": "ui_group",
@@ -596,7 +596,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_group.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_group.js"
     },
     "ui_spacer": {
      "name": "ui_spacer",
@@ -606,7 +606,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-dashboard",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-dashboard\\nodes\\ui_spacer.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-dashboard\\nodes\\ui_spacer.js"
     }
    }
   },
@@ -624,7 +624,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-node-mysql",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-node-mysql\\68-mysql.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-node-mysql\\68-mysql.js"
     }
    }
   },
@@ -641,7 +641,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-contrib-iiot-jwt",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-contrib-iiot-jwt\\jwt\\jwt-in.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-contrib-iiot-jwt\\jwt\\jwt-in.js"
     },
     "JWT-Out": {
      "name": "JWT-Out",
@@ -651,93 +651,82 @@
      "enabled": true,
      "local": true,
      "module": "node-red-contrib-iiot-jwt",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-contrib-iiot-jwt\\jwt\\jwt-out.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-contrib-iiot-jwt\\jwt\\jwt-out.js"
     }
    }
   },
   "node-red-factory-config": {
    "name": "node-red-factory-config",
-   "version": "1.0.7",
+   "version": "1.0.0",
    "local": true,
    "nodes": {
     "factory": {
      "name": "factory",
      "types": [
-      "Computer",
-      "Factory",
-      "Areas",
-      "Area",
-      "TankAreaDefFilling",
-      "TankAreaDefEmptying",
-      "TankAreas",
-      "TankArea",
-      "TankDef",
-      "Tank",
-      "AreaDefCarto",
-      "TankAreaDefCarto",
-      "TankDefCarto"
+      "factory",
+      "areas",
+      "area",
+      "tank_areas",
+      "tank"
      ],
      "enabled": true,
      "local": true,
      "module": "node-red-factory-config",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-factory-config\\300-factory.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-factory-config\\300-factory.js"
     },
     "plc": {
      "name": "plc",
      "types": [
       "Plcs",
-      "Server",
-      "Plc"
+      "Server_Def",
+      "Plc_Type"
      ],
      "enabled": true,
      "local": true,
      "module": "node-red-factory-config",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-factory-config\\301-plc.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-factory-config\\301-plc.js"
     },
     "equip": {
      "name": "equip",
      "types": [
-      "Equips",
-      "EquipDef",
-      "EquipDefDigital",
-      "EquipDefAnalog",
-      "EquipDefGAlarms",
-      "EquipDefCarto",
-      "EquipDefEventList",
-      "EquipDefEventM",
-      "EquipDefEventS",
-      "Equip"
+      "equips",
+      "Equip_Def",
+      "Equip_Def_Digital",
+      "Equip_Def_Analog",
+      "Equip_Def_Alarms",
+      "Equip_Def_Carto",
+      "Equip_Def_EventList",
+      "Equip_Def_EventM",
+      "Equip_Def_EventS",
+      "equip_Type"
      ],
      "enabled": true,
      "local": true,
      "module": "node-red-factory-config",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-factory-config\\302-equip.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-factory-config\\302-equip.js"
     },
     "work": {
      "name": "work",
      "types": [
-      "Concat",
-      "Create_Table",
-      "Populate_Table",
-      "Check_Modif_Flow",
-      "Create_Global",
-      "Get_Computer_Info"
+      "concat",
+      "create_table",
+      "populate_table"
      ],
      "enabled": true,
      "local": true,
      "module": "node-red-factory-config",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-factory-config\\303-work.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-factory-config\\303-work.js"
     },
     "fifo": {
      "name": "fifo",
      "types": [
-      "Fifo_Def",
-      "Fifo"
+      "fifo_Def",
+      "fifo"
      ],
      "enabled": true,
      "local": true,
      "module": "node-red-factory-config",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-factory-config\\304-fifo.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-factory-config\\304-fifo.js"
     },
     "event": {
      "name": "event",
@@ -745,7 +734,7 @@
      "enabled": true,
      "local": true,
      "module": "node-red-factory-config",
-     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\Process Tracking\\node_modules\\node-red-factory-config\\305-event.js"
+     "file": "D:\\2 Project_Process Control\\1 Process Tracking\\process-tracking!\\node_modules\\node-red-factory-config\\305-event.js"
     }
    }
   }
@@ -764,7 +753,7 @@
     }
    },
    "menu-menu-item-palette": true,
-   "menu-menu-item-sidebar": true,
+   "menu-menu-item-sidebar": false,
    "menu-deploymenu-item-flow": false,
    "menu-deploymenu-item-full": true,
    "menu-deploymenu-item-node": false
