@@ -657,17 +657,25 @@
   },
   "node-red-factory-config": {
    "name": "node-red-factory-config",
-   "version": "1.0.0",
+   "version": "1.0.8",
    "local": true,
    "nodes": {
     "factory": {
      "name": "factory",
      "types": [
-      "factory",
-      "areas",
-      "area",
-      "tank_areas",
-      "tank"
+      "Computer",
+      "Factory",
+      "Areas",
+      "Area",
+      "TankAreaDefFilling",
+      "TankAreaDefEmptying",
+      "TankAreas",
+      "TankArea",
+      "TankDef",
+      "Tank",
+      "AreaDefCarto",
+      "TankAreaDefCarto",
+      "TankDefCarto"
      ],
      "enabled": true,
      "local": true,
@@ -678,8 +686,8 @@
      "name": "plc",
      "types": [
       "Plcs",
-      "Server_Def",
-      "Plc_Type"
+      "Server",
+      "Plc"
      ],
      "enabled": true,
      "local": true,
@@ -689,16 +697,16 @@
     "equip": {
      "name": "equip",
      "types": [
-      "equips",
-      "Equip_Def",
-      "Equip_Def_Digital",
-      "Equip_Def_Analog",
-      "Equip_Def_Alarms",
-      "Equip_Def_Carto",
-      "Equip_Def_EventList",
-      "Equip_Def_EventM",
-      "Equip_Def_EventS",
-      "equip_Type"
+      "Equips",
+      "EquipDef",
+      "EquipDefDigital",
+      "EquipDefAnalog",
+      "EquipDefGAlarms",
+      "EquipDefCarto",
+      "EquipDefEventList",
+      "EquipDefEventM",
+      "EquipDefEventS",
+      "Equip"
      ],
      "enabled": true,
      "local": true,
@@ -708,9 +716,12 @@
     "work": {
      "name": "work",
      "types": [
-      "concat",
-      "create_table",
-      "populate_table"
+      "Concat",
+      "Create_Table",
+      "Populate_Table",
+      "Check_Modif_Flow",
+      "Create_Global",
+      "Get_Computer_Info"
      ],
      "enabled": true,
      "local": true,
@@ -720,8 +731,8 @@
     "fifo": {
      "name": "fifo",
      "types": [
-      "fifo_Def",
-      "fifo"
+      "Fifo_Def",
+      "Fifo"
      ],
      "enabled": true,
      "local": true,
